@@ -1,3 +1,9 @@
+> **🌐 Interactive website:** [Launch GitScope](https://ujwal183.github.io/Ujwal183/) · [View source code](https://github.com/Ujwal183/Ujwal183)
+>
+> GitScope is a live GitHub profile explorer with profile search, repository filters, public activity, language analytics, README previews, and a light/dark theme. To publish it, enable GitHub Pages in **Settings → Pages → Deploy from a branch → main → / (root) → Save**. The website files are `index.html`, `styles.css`, and `app.js`.
+
+---
+
 <!--
   GitHub Profile README for @Ujwal183
   Tip: GitHub README supports Markdown and a subset of HTML, not JavaScript.
