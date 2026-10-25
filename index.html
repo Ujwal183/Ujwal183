@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1020">
+  <meta name="description" content="Explore public GitHub profiles, repositories, activity, and developer stats in a clean interactive dashboard.">
+  <title>GitScope — GitHub Profile Explorer</title>
+  <link rel="preconnect" href="https://api.github.com">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="topbar">
+    <a class="brand" href="./" aria-label="GitScope home"><span class="brand-mark">G</span><span>git<span class="brand-accent">scope</span><small>PROFILE EXPLORER</small></span></a>
+    <nav class="topnav"><a href="#overview">Overview</a><a href="#repositories">Repositories</a><a href="#activity">Activity</a></nav>
+    <div class="top-actions"><span class="live-pill"><i></i> PUBLIC API</span><button id="themeToggle" class="icon-button" aria-label="Toggle light and dark theme" title="Toggle theme">☼</button></div>
+  </header>
+  <main class="shell">
+    <section class="hero">
+      <div class="eyebrow"><span class="eyebrow-line"></span> YOUR WINDOW INTO GITHUB <span class="eyebrow-line"></span></div>
+      <h1>Every developer has<br><span class="gradient-text">a story in their code.</span></h1>
+      <p class="hero-copy">Explore public profiles, discover standout repositories, and turn open-source activity into a clearer picture.</p>
+      <form id="searchForm" class="searchbar">
+        <span class="search-symbol">⌕</span><label class="sr-only" for="usernameInput">GitHub username</label>
+        <input id="usernameInput" name="username" placeholder="Enter a GitHub username…" value="Ujwal183" autocomplete="off" spellcheck="false" required>
+        <button type="submit" id="searchButton"><span>Explore profile</span><b>↗</b></button>
+      </form>
+      <div class="quick-row"><span class="muted">TRY A PROFILE</span><button class="suggestion" data-user="torvalds">@torvalds</button><button class="suggestion" data-user="sindresorhus">@sindresorhus</button><button class="suggestion" data-user="gaearon">@gaearon</button><button class="suggestion" data-user="Ujwal183">@Ujwal183</button></div>
+      <p class="api-note"><span>✦</span> Powered by the GitHub public API · No sign-in required</p>
+    </section>
+
+    <div id="status" class="status" role="status" aria-live="polite"><span class="spinner"></span> Loading profile…</div>
+    <section id="overview" class="profile-panel panel hidden">
+      <div class="profile-main">
+        <img id="avatar" class="avatar" alt="GitHub profile avatar">
+        <div class="profile-identity"><div class="name-line"><h2 id="displayName">Developer</h2><span id="verifiedBadge" class="profile-badge">PUBLIC PROFILE</span></div><a id="profileLogin" class="login" href="#" target="_blank" rel="noreferrer">@username</a><p id="bio" class="bio"></p><div id="profileMeta" class="profile-meta"></div></div>
+        <a id="profileLink" class="outline-link" href="#" target="_blank" rel="noreferrer">View GitHub ↗</a>
+      </div>
+      <div class="profile-stats">
+        <div><span class="stat-icon">⌘</span><span class="stat-number" id="followers">—</span><span class="stat-label">Followers</span></div>
+        <div><span class="stat-icon">◎</span><span class="stat-number" id="following">—</span><span class="stat-label">Following</span></div>
+        <div><span class="stat-icon">▤</span><span class="stat-number" id="repoCount">—</span><span class="stat-label">Public repos</span></div>
+        <div><span class="stat-icon">◷</span><span class="stat-number" id="joinedDate">—</span><span class="stat-label">Joined GitHub</span></div>
+      </div>
+    </section>
+
+    <section id="dashboard" class="hidden">
+      <div class="section-heading" id="overviewHeading"><div><span class="section-kicker">AT A GLANCE</span><h2>Developer snapshot<span class="dot">.</span></h2></div><span class="section-caption">Computed from public repositories</span></div>
+      <div class="metric-grid">
+        <article class="metric-card"><div class="metric-top"><span>Total stars</span><span class="metric-icon gold">✦</span></div><strong id="totalStars">—</strong><small>Across public repositories</small></article>
+        <article class="metric-card"><div class="metric-top"><span>Total forks</span><span class="metric-icon blue">⑂</span></div><strong id="totalForks">—</strong><small>Community forks</small></article>
+        <article class="metric-card"><div class="metric-top"><span>Watchers</span><span class="metric-icon violet">◉</span></div><strong id="totalWatchers">—</strong><small>Repository subscriptions</small></article>
+        <article class="metric-card"><div class="metric-top"><span>Open issues</span><span class="metric-icon green">◌</span></div><strong id="totalIssues">—</strong><small>Across public repositories</small></article>
+      </div>
+      <div class="analytics-grid">
+        <article class="panel chart-panel"><div class="panel-heading"><div><span class="section-kicker">TECH STACK</span><h3>Language distribution</h3></div><span class="mini-label">BY REPOSITORY SIZE</span></div><div id="languageChart" class="language-chart"><div class="empty-chart">Language data will appear here.</div></div><div id="languageLegend" class="legend"></div></article>
+        <article class="panel chart-panel"><div class="panel-heading"><div><span class="section-kicker">TOP PERFORMERS</span><h3>Repositories by stars</h3></div><span class="mini-label">TOP 5</span></div><div id="starsChart" class="stars-chart"></div></article>
+      </div>
+    </section>
+
+    <section id="repositories" class="hidden">
+      <div class="section-heading"><div><span class="section-kicker">THE WORK</span><h2>Repository explorer<span class="dot">.</span></h2></div><span id="repoSummary" class="section-caption"></span></div>
+      <div class="repo-toolbar panel"><label class="repo-search"><span>⌕</span><span class="sr-only">Search repositories</span><input id="repoSearch" placeholder="Search repositories by name or description…"></label><div class="filters"><label><span class="sr-only">Filter by language</span><select id="languageFilter"><option value="">All languages</option></select></label><label><span class="sr-only">Sort repositories</span><select id="sortSelect"><option value="stars">Most stars</option><option value="updated">Recently updated</option><option value="name">Name A–Z</option><option value="forks">Most forks</option></select></label></div></div>
+      <div id="repoGrid" class="repo-grid"></div><div id="repoEmpty" class="empty-state hidden">No repositories match those filters. Try a different search.</div>
+    </section>
+
+    <section id="activity" class="hidden">
+      <div class="section-heading"><div><span class="section-kicker">RECENT MOMENTUM</span><h2>Public activity<span class="dot">.</span></h2></div><span class="section-caption">Recent events available from GitHub</span></div>
+      <article class="panel activity-panel"><div class="panel-heading"><div><h3>Activity timeline</h3><p class="muted">Public events are limited by GitHub's API.</p></div><span class="live-pill"><i></i> LIVE DATA</span></div><div id="activityList" class="activity-list"></div></article>
+      <article class="panel contribution-panel"><div class="panel-heading"><div><span class="section-kicker">EVENT FOOTPRINT</span><h3>Recent activity map</h3><p class="muted">A day-by-day view of events returned by the public events API—not the official contribution graph.</p></div></div><div id="heatmap" class="heatmap"></div><div class="heatmap-labels"><span>Less activity</span><span>More activity</span></div></article>
+    </section>
+
+    <section class="footer-cta"><div><span class="section-kicker">KEEP EXPLORING</span><h2>Curiosity is a developer superpower.</h2><p>Find a profile. Follow the code. Learn something new.</p></div><a href="https://docs.github.com/en/rest" target="_blank" rel="noreferrer" class="outline-link">Explore GitHub API docs ↗</a></section>
+    <footer><a class="brand footer-brand" href="./"><span class="brand-mark">G</span><span>git<span class="brand-accent">scope</span></span></a><span>Built with the GitHub public REST API.</span><span><a href="https://github.com/Ujwal183" target="_blank" rel="noreferrer">Made by @Ujwal183 ↗</a></span></footer>
+  </main>
+
+  <div id="repoModal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><div class="modal-backdrop" data-close-modal></div><article class="modal-card"><button id="closeModal" class="icon-button modal-close" aria-label="Close repository details">×</button><div id="modalContent"></div></article></div>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
