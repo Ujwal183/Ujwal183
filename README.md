@@ -1,3 +1,4 @@
+> **🧭 Job Scout auto-apply setup:** [View the local resume upload, auto-apply, and email report guide](https://github.com/Ujwal183/Ujwal183/blob/main/job-search-agent/README.md#resume-aware-auto-apply-local-private). Resume and mail credentials are kept on your computer, not in this public repository.
 > **🌐 Interactive website:** [Launch GitScope](https://ujwal183.github.io/Ujwal183/) · [Launch Job Scout](https://ujwal183.github.io/Ujwal183/job-search-agent/) · [View source code](https://github.com/Ujwal183/Ujwal183)
 >
 > **Job Scout** is a daily job-discovery agent for Java, Python, backend, data, automation, and AI roles. It ranks postings from configured public employer ATS feeds and links to the official application page. Salary and deadlines are marked "Not disclosed" when not stated.
