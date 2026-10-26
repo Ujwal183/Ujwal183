@@ -54,8 +54,8 @@ The local application runner extends the daily job feed with resume-based matchi
 ### Windows setup
 
 1. Download this repository as a ZIP from GitHub and extract it, or clone it. Open the `job-search-agent` folder in File Explorer.
-2. Right-click PowerShell in that folder and run `.\\setup_windows.ps1`. If Windows blocks the script, in that PowerShell window run `Set-ExecutionPolicy -Scope Process Bypass`, then run the setup script again.
-3. Start the local configuration page with `.` + `open_local_app.ps1`. The script opens a local Streamlit web page in your browser.
+2. Right-click PowerShell in that folder and run `.\setup_windows.ps1`. If Windows blocks the script, in that PowerShell window run `Set-ExecutionPolicy -Scope Process Bypass`, then run the setup script again.
+3. Start the local configuration page with `.\open_local_app.ps1`. The script opens a local Streamlit web page in your browser.
 4. Upload your PDF/DOCX/TXT resume and fill in your name, email, phone, location, education, accurate work-authorization/sponsorship answers (only if known), preferred roles, and locations.
 5. Enter SMTP settings for report email. For Gmail, use a Google App Password rather than your normal Google password. The SMTP password is stored in the Windows credential store through Python Keyring; the local `.env` file contains only non-secret mail settings. Never commit credentials to GitHub.
 6. Click **Save & test email**. Then run **Save and run now** with automatic submission unchecked first. Review the dry-run report carefully.
