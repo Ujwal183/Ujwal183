@@ -291,7 +291,8 @@ def map_field(label: str, profile: dict[str, Any], full_name: str) -> tuple[str 
     if "salary" in text or "compensation" in text or "ctc" in text or "pay expectation" in text:
         return _profile_value(profile, "expected_salary"), "text"
     if "how did you hear" in text or "source" == text:
-        return _profile_value(profile, "application_source") or "Company careers website", "select"
+        source = _profile_value(profile, "application_source")
+        return (source, "select") if source else (None, "unknown")
     if "cover letter" in text or "why do you want" in text:
         return _profile_value(profile, "cover_letter_text"), "text"
     if "privacy" in text or "data processing" in text:
