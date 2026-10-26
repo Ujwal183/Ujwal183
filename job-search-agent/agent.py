@@ -172,12 +172,28 @@ def normalize_location(value: Any) -> str:
 
 
 def location_is_relevant(location: str, description: str) -> bool:
-    combined = (location + " " + description).lower()
-    if any(term in combined for term in INDIA_TERMS):
+    loc = (location or "").lower().strip()
+    desc = (description or "").lower()
+    # A concrete India city/country in the job's location field is the strongest signal.
+    if any(term in loc for term in INDIA_TERMS):
         return True
-    if any(term in combined for term in GLOBAL_REMOTE_TERMS) and ("remote" in combined or "anywhere" in combined):
+    # Do not include a US/Canada/other physical office just because the description mentions India.
+    # Remote roles are accepted only when the location or description explicitly supports India/global eligibility.
+    remote_location = any(term in loc for term in ("remote", "anywhere", "distributed", "work from home"))
+    if remote_location:
+        if any(term in loc for term in INDIA_TERMS):
+            return True
+        if any(term in desc for term in ("remote - india", "remote in india", "india remote", "remote (india)", "based in india", "located in india", "applicants in india", "candidates in india")):
+            return True
+        if any(term in desc for term in GLOBAL_REMOTE_TERMS):
+            return True
+    # If the feed omitted a location, accept only explicit global-remote or India-specific details.
+    unknown_location = not loc or loc in ("location not disclosed", "not disclosed", "n/a", "unknown")
+    if unknown_location and (
+        any(term in desc for term in ("remote - india", "remote in india", "india remote", "remote (india)", "based in india", "located in india"))
+        or any(term in desc for term in GLOBAL_REMOTE_TERMS)
+    ):
         return True
-    # A bare "Remote" without a country is ambiguous, so do not assume it includes India.
     return False
 
 
