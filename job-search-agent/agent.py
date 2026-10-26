@@ -38,7 +38,14 @@ ROLE_TERMS = [
     "test automation", "qa automation", "sdet", "machine learning",
     "artificial intelligence", " ai engineer", "genai", "graduate engineer",
     "associate engineer", "associate software", "application developer",
-    "platform engineer", "technical analyst", "junior developer"
+    "platform engineer", "technical analyst", "junior developer",
+    "software development engineer", "sde", "developer intern"
+]
+NON_TARGET_TITLE_TERMS = [
+    "customer experience", "customer support", "technical support", "technical writer",
+    "sales engineer", "solution engineer", "solutions engineer", "customer success",
+    "business system engineer", "account executive", "sales development",
+    "talent acquisition", "recruiter"
 ]
 EARLY_TERMS = [
     "fresher", "fresh graduate", "new grad", "recent graduate", "graduate role",
@@ -225,7 +232,11 @@ def score_job(title: str, location: str, description: str) -> dict[str, Any]:
     role_hits = [term.strip() for term in ROLE_TERMS if term in title_low]
     role_hits = list(dict.fromkeys(role_hits))
     matched_skills = [skill for skill, pattern in SKILL_PATTERNS.items() if re.search(pattern, text, re.I)]
-    early_hits = [term for term in EARLY_TERMS if term in text]
+    # Use word boundaries: the substring "intern" must not match "internal".
+    early_hits = [
+        term for term in EARLY_TERMS
+        if re.search(r"(?<![a-z])" + re.escape(term) + r"(?![a-z])", text, re.I)
+    ]
     senior = is_senior(title, text)
     reasons: list[str] = []
     score = 0
@@ -309,7 +320,7 @@ def normalize_lever(source: dict[str, Any]) -> list[dict[str, Any]]:
             "company": source["company"], "title": item.get("text") or "Untitled role",
             "location": location, "description": combined, "apply_url": apply, "job_url": hosted,
             "careers_url": source["careers_url"], "published_at": fmt_date(item.get("createdAt")),
-            "employment_type": categories.get("commitment") or "Not disclosed", "provider": "Lever",
+            "employment_type": ("Internship" if re.search(r"\\bintern(ship)?\\b", str(item.get("text") or ""), re.I) else (categories.get("commitment") or "Not disclosed")), "provider": "Lever",
             "source_status": "Official public job-postings API", "salary": salary_from_text(combined),
             "deadline": deadline_from_text(combined), "is_remote": "remote" in (location + " " + combined).lower()
         })
@@ -379,6 +390,9 @@ def normalize_job(job: dict[str, Any]) -> dict[str, Any] | None:
     title = str(job.get("title") or "Untitled role").strip()
     location = str(job.get("location") or "Location not disclosed").strip()
     description = str(job.get("description") or "")
+    title_lower = title.lower()
+    if any(term in title_lower for term in NON_TARGET_TITLE_TERMS):
+        return None
     if not location_is_relevant(location, description):
         return None
     assessment = score_job(title, location, description)
