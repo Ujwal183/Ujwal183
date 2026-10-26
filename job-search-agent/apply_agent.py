@@ -576,7 +576,7 @@ def format_report(run_mode: str, outcomes: list[dict[str, Any]], started: str, e
     return "\n".join(lines)
 
 
-def run_agent(submit: bool, jobs_file: str | None = None, max_applications: int = 5) -> tuple[list[dict[str, Any]], str]:
+def run_agent(submit: bool, jobs_file: str | None = None, max_applications: int | None = None) -> tuple[list[dict[str, Any]], str]:
     APP_HOME.mkdir(parents=True, exist_ok=True)
     REPORT_DIR.mkdir(parents=True, exist_ok=True)
     profile = load_json(PROFILE_PATH, {})
@@ -599,6 +599,9 @@ def run_agent(submit: bool, jobs_file: str | None = None, max_applications: int 
     records: list[dict[str, Any]] = []
     candidates: list[tuple[dict[str, Any], dict[str, Any]]] = []
     minimum = int(profile.get("minimum_match_score", 65))
+    if max_applications is None:
+        max_applications = int(profile.get("max_applications_per_run", 5))
+    max_applications = max(1, min(20, int(max_applications)))
     for job in jobs:
         url = job.get("apply_url") or job.get("job_url") or ""
         if not url.startswith("https://"):
@@ -612,7 +615,7 @@ def run_agent(submit: bool, jobs_file: str | None = None, max_applications: int 
             continue
         candidates.append((job, match))
     candidates.sort(key=lambda item: item[1]["resume_match_score"], reverse=True)
-    candidates = candidates[:max(1, max_applications)]
+    candidates = candidates[:max_applications]
     if not candidates:
         started_empty = now_iso()
         ended_empty = now_iso()
@@ -687,7 +690,7 @@ def main() -> int:
     parser.add_argument("--submit", action="store_true", help="Submit applications only when auto-submit is enabled in your local profile.")
     parser.add_argument("--dry-run", action="store_true", help="Fill supported forms without submitting (default).")
     parser.add_argument("--jobs-file", help="Use a local jobs.json instead of the latest public feed.")
-    parser.add_argument("--max-applications", type=int, default=5, help="Limit the number of roles processed in one run (default: 5).")
+    parser.add_argument("--max-applications", type=int, default=None, help="Limit roles processed in one run (default: the value saved in your profile).")
     parser.add_argument("--test-email", action="store_true", help="Send a test email using local SMTP settings.")
     args = parser.parse_args()
     APP_HOME.mkdir(parents=True, exist_ok=True)
