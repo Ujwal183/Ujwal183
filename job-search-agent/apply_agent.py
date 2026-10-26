@@ -438,7 +438,7 @@ def inspect_and_fill(page: Any, profile: dict[str, Any], resume_path: Path, job:
             elif action == "consent" or any(t in label_lower for t in ("terms and conditions", "terms of service", "certify that", "i certify")):
                 if field["required"]:
                     blocked.append(label or "required legal acknowledgement")
-            elif field["required"] and not field["checked"]:
+            elif field["required"]:
                 blocked.append(label or field["name"] or "required checkbox")
             continue
         if action == "sensitive":
@@ -446,7 +446,7 @@ def inspect_and_fill(page: Any, profile: dict[str, Any], resume_path: Path, job:
                 blocked.append(label or field["name"] or "required sensitive question")
             continue
         if action in ("consent", "unknown"):
-            if field["required"] and not field["value"]:
+            if field["required"]:
                 missing.append(label or field["name"] or "required unanswered field")
             continue
         if action == "file":
@@ -458,14 +458,14 @@ def inspect_and_fill(page: Any, profile: dict[str, Any], resume_path: Path, job:
                     missing.append(label or "resume upload")
             continue
         if not answer:
-            if field["required"] and not field["value"]:
+            if field["required"]:
                 missing.append(label or field["name"] or "required field")
             continue
         try:
             if field_type == "select-one" or field["tag"] == "select":
                 ok = _select_value(locator, str(answer))
-                if not ok and field["required"] and not field["value"]:
-                    missing.append(label or field["name"] or "required select")
+                if not ok and field["required"]:
+                    missing.append((label or field["name"] or "required select") + " (profile answer did not match any option)")
             elif field_type in ("checkbox", "radio"):
                 pass
             else:
