@@ -47,6 +47,47 @@ Python 3.11+ is recommended. No third-party packages are needed for collection.
 
 Optional AI assessment uses the OpenAI API only when OPENAI_API_KEY is set.
 
+## Resume-aware auto-apply (local, private)
+
+The local application runner extends the daily job feed with resume-based matching, supported browser-form filling, a private application log, and an email report. It is intentionally a local program: your resume and personal answers are stored under your Windows user home folder at `~/.jobscout`, not in this public repository.
+
+### Windows setup
+
+1. Download this repository as a ZIP from GitHub and extract it, or clone it. Open the `job-search-agent` folder in File Explorer.
+2. Right-click PowerShell in that folder and run `.` + `setup_windows.ps1`. If Windows blocks the script, in that PowerShell window run `Set-ExecutionPolicy -Scope Process Bypass`, then run the setup script again.
+3. Start the local configuration page with `.` + `open_local_app.ps1`. The script opens a local Streamlit web page in your browser.
+4. Upload your PDF/DOCX/TXT resume and fill in your name, email, phone, location, education, accurate work-authorization/sponsorship answers (only if known), preferred roles, and locations.
+5. Enter SMTP settings for report email. For Gmail, use a Google App Password rather than your normal Google password. The password is saved locally in `~/.jobscout/.env`; never commit it to GitHub.
+6. Click **Save & test email**. Then run **Save and run now** with automatic submission unchecked first. Review the dry-run report carefully.
+7. After you verify every profile answer and the preview, check the explicit auto-submit authorization box and save the profile. The daily task is registered for 9:20 AM local India time by the setup script; it runs the local application runner and emails the results. The PC needs to be powered on and your Windows account logged in.
+
+### How submissions are handled
+
+- Resume matching combines skills detected in your uploaded resume with job-title, posting, location and early-career signals. Only jobs over your configured minimum match threshold are considered.
+- The current implementation automates supported public application pages. It fills a field only when it can map the question to an explicit profile answer or the uploaded resume.
+- It stops for CAPTCHA/anti-bot checks, unfamiliar required questions, demographic questions, terms-of-service attestations, unsupported upload requirements, or unanswered legal/work-eligibility fields. It does not bypass security checks or guess an answer.
+- The log avoids automatically re-submitting jobs when the site showed an application receipt or the result was uncertain. Confirm uncertain outcomes in the employer portal before retrying.
+- Email reports distinguish **Submitted** (a success/receipt signal was seen), **Submission uncertain**, **Manual review**, **Closed**, and errors. An email report is not an employer receipt or a guarantee that an application was accepted.
+- Salary and deadlines are not invented. Missing details appear as **Not disclosed**.
+- This does not apply to every possible site or form. Some employers restrict automation or require a login, CAPTCHA, custom questions, or a separate application account. Those need manual completion.
+
+### Run from a terminal
+
+From this folder, once the setup script has installed dependencies:
+
+    .\.venv\Scripts\python.exe apply_agent.py --dry-run --max-applications 5
+    .\.venv\Scripts\python.exe apply_agent.py --test-email
+
+Actual submissions only run when you explicitly use `--submit` and `auto_apply_enabled` is true in your local profile:
+
+    .\.venv\Scripts\python.exe apply_agent.py --submit --max-applications 5
+
+Do not use the submit command until the dry-run output, candidate details, resume, and email delivery have been verified.
+
+### API and account limits
+
+The public Greenhouse, Lever and Ashby feeds are used to discover public openings. Employer-side submission APIs may require company-issued credentials, so Job Scout does not pretend it can submit to every board with a public listing API key. The local runner uses the public application page and falls back to manual review when it cannot safely finish a form. See the official [Greenhouse Job Board API](https://docs.greenhouse.io/job-board) and [Lever Postings API](https://github.com/lever/postings-api) documentation.
+
 ## Current profile
 
 - Locations: Bengaluru, Hyderabad, Chennai, other India-based roles, and genuinely remote roles open to India.
