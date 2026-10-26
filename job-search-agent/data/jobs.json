@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T11:12:42+00:00",
+  "generated_at": "2026-10-26T11:15:12+00:00",
   "status": "ok",
   "profile": {
     "target_roles": [
@@ -93,7 +93,7 @@
       "provider": "Ashby",
       "status": "ok",
       "jobs_seen": 38,
-      "matches": 5,
+      "matches": 0,
       "message": ""
     },
     {
@@ -222,126 +222,6 @@
       ],
       "url_domain_verified": true,
       "source_company": "Lingaro",
-      "fit_summary": "Rule-based match using role, skills, early-career wording, and location signals."
-    },
-    {
-      "company": "Ema",
-      "title": "Software Engineer, Full-Stack ",
-      "location": "Mountain View (Hybrid)",
-      "description": "ABOUT EMA Ema builds AI Employees for HR, IT and Finance. Our AI Employees take on the busy work across the employee experience, from recruiting, onboarding and benefits to IT support, invoice processing and payroll, so people can spend their time on work that needs them. Founded by former executives from Google, Coinbase, Flipkart, and Okta, our team includes engineers from premier tech companies and graduates of Stanford, MIT, UC Berkeley, CMU, and IITs. We are backed by industry leading investors including Accel, Naspers/Prosus, Creaegis, Section32, and angels like Sheryl Sandberg and Dustin Moskovitz. Headquartered in Silicon Valley and with offices in London, Bangalore and Vancouver, Ema is at the frontier of what Agentic AI can do in production. We ship real systems that run real business processes at scale. IN THIS ROLE, YOU WILL: - Design, develop, and implement exceptional user interfaces for web applications using modern web technologies such as HTML, CSS, and JavaScript. - Collaborate closely with product managers, UX designers, and other stakeholders to gather requirements, own the user experience, develop wireframes, and create high-fidelity prototypes. - Develop and maintain API integrations, ensuring seamless communication between front-end and back-end systems using React and gRPC. - Contribute to back-end development with a focus on creating robust APIs and ensuring smooth communication between the front-end and server using technologies like Node.js or Python. - Build, test, and deploy full-stack web applications using React and gRPC, while ensuring responsiveness, performance, and scalability. - Optimize web applications for performance, accessibility, and SEO best practices. - Troubleshoot and resolve UI and back-end related issues, ensuring a consistent and optimal user experience across multiple platforms and devices. - Write clean, maintainable, and well-documented code adhering to established coding standards, and deploy/debug using platforms like Vercel. IDEALLY YOU'D HAVE: - Bachelor's degree in Computer Science, Web Development, or a rel",
-      "apply_url": "https://jobs.ashbyhq.com/ema/a3e07250-51f9-4518-ad2e-19d7825f5234/application",
-      "job_url": "https://jobs.ashbyhq.com/ema/a3e07250-51f9-4518-ad2e-19d7825f5234",
-      "careers_url": "https://jobs.ashbyhq.com/ema",
-      "published_at": "2026-10-21T07:21:20.567000+00:00",
-      "employment_type": "FullTime",
-      "provider": "Ashby",
-      "source_status": "Official public job-posting API",
-      "salary": "Not disclosed",
-      "deadline": "Not disclosed",
-      "is_remote": false,
-      "match_score": 80,
-      "skills_matched": [
-        "Python",
-        "FastAPI",
-        "REST APIs",
-        "Git",
-        "HTML",
-        "CSS",
-        "JavaScript"
-      ],
-      "match_reasons": [
-        "Role aligns with target software/data/AI work",
-        "Skills found: Python, FastAPI, REST APIs, Git, HTML",
-        "Experience requirement needs manual confirmation",
-        "India-based or global-remote location signal"
-      ],
-      "eligibility": "Experience eligibility is unclear from the feed; review the full official description.",
-      "early_career_signal": false,
-      "seniority_flag": false,
-      "role_hits": [
-        "software engineer"
-      ],
-      "url_domain_verified": true,
-      "source_company": "Ema",
-      "fit_summary": "Rule-based match using role, skills, early-career wording, and location signals."
-    },
-    {
-      "company": "Ema",
-      "title": "Software Engineer, Full-Stack ",
-      "location": "Vancouver, BC",
-      "description": "ABOUT EMA Ema builds AI Employees for HR, IT and Finance. Our AI Employees take on the busy work across the employee experience, from recruiting, onboarding and benefits to IT support, invoice processing and payroll, so people can spend their time on work that needs them. Founded by former executives from Google, Coinbase, Flipkart, and Okta, our team includes engineers from premier tech companies and graduates of Stanford, MIT, UC Berkeley, CMU, and IITs. We are backed by industry leading investors including Accel, Naspers/Prosus, Creaegis, Section32, and angels like Sheryl Sandberg and Dustin Moskovitz. Headquartered in Silicon Valley and with offices in London, Bangalore and Vancouver, Ema is at the frontier of what Agentic AI can do in production. We ship real systems that run real business processes at scale. IN THIS ROLE, YOU WILL: - Design, develop, and implement exceptional user interfaces for web applications using modern web technologies such as HTML, CSS, and JavaScript. - Collaborate closely with product managers, UX designers, and other stakeholders to gather requirements, own the user experience, develop wireframes, and create high-fidelity prototypes. - Develop and maintain API integrations, ensuring seamless communication between front-end and back-end systems using React and gRPC. - Contribute to back-end development with a focus on creating robust APIs and ensuring smooth communication between the front-end and server using technologies like Node.js or Python. - Build, test, and deploy full-stack web applications using React and gRPC, while ensuring responsiveness, performance, and scalability. - Optimize web applications for performance, accessibility, and SEO best practices. - Troubleshoot and resolve UI and back-end related issues, ensuring a consistent and optimal user experience across multiple platforms and devices. - Write clean, maintainable, and well-documented code adhering to established coding standards, and deploy/debug using platforms like Vercel. IDEALLY YOU'D HAVE: - Bachelor's degree in Computer Science, Web Development, or a rel",
-      "apply_url": "https://jobs.ashbyhq.com/ema/00ec584f-a71d-42b9-98df-c8ff9d83db7f/application",
-      "job_url": "https://jobs.ashbyhq.com/ema/00ec584f-a71d-42b9-98df-c8ff9d83db7f",
-      "careers_url": "https://jobs.ashbyhq.com/ema",
-      "published_at": "2026-09-22T17:49:12.186000+00:00",
-      "employment_type": "FullTime",
-      "provider": "Ashby",
-      "source_status": "Official public job-posting API",
-      "salary": "Not disclosed",
-      "deadline": "Not disclosed",
-      "is_remote": false,
-      "match_score": 80,
-      "skills_matched": [
-        "Python",
-        "FastAPI",
-        "REST APIs",
-        "Git",
-        "HTML",
-        "CSS",
-        "JavaScript"
-      ],
-      "match_reasons": [
-        "Role aligns with target software/data/AI work",
-        "Skills found: Python, FastAPI, REST APIs, Git, HTML",
-        "Experience requirement needs manual confirmation",
-        "India-based or global-remote location signal"
-      ],
-      "eligibility": "Experience eligibility is unclear from the feed; review the full official description.",
-      "early_career_signal": false,
-      "seniority_flag": false,
-      "role_hits": [
-        "software engineer"
-      ],
-      "url_domain_verified": true,
-      "source_company": "Ema",
-      "fit_summary": "Rule-based match using role, skills, early-career wording, and location signals."
-    },
-    {
-      "company": "Ema",
-      "title": "Software Engineer, Machine Learning",
-      "location": "Mountain View (Hybrid)",
-      "description": "ABOUT EMA Ema builds AI Employees for HR, IT and Finance. Our AI Employees take on the busy work across the employee experience, from recruiting, onboarding and benefits to IT support, invoice processing and payroll, so people can spend their time on work that needs them. Founded by former executives from Google, Coinbase, Flipkart, and Okta, our team includes engineers from premier tech companies and graduates of Stanford, MIT, UC Berkeley, CMU, and IITs. We are backed by industry leading investors including Accel, Naspers/Prosus, Creaegis, Section32, and angels like Sheryl Sandberg and Dustin Moskovitz. Headquartered in Silicon Valley and with offices in London, Bangalore and Vancouver, Ema is at the frontier of what Agentic AI can do in production. We ship real systems that run real business processes at scale. Who You Are We're looking for innovative and passionate Machine Learning Engineers to join our team. You are someone who loves solving complex problems, enjoys the challenges of working with huge data sets, and has a knack for turning theoretical concepts into practical, scalable solutions. You are a strong team player but also thrive in autonomous environments where your ideas can make a significant impact. You love utilizing machine learning techniques to push the boundaries of what is possible within the realm of Natural Language Processing, Information Retrieval and related spaces. Most importantly, you are excited to be part of a mission-oriented high-growth startup that can create a lasting impact. You Will - Conceptualize, develop, and deploy machine learning models that underpin our NLP, retrieval, ranking, reasoning, dialog and code-generation systems. - Implement advanced machine learning algorithms, such as Transformer-based models, reinforcement learning, ensemble learning, and agent-based systems to continually improve the performance of our AI systems. - Process and analyze large, complex datasets (structured, semi-structured, and unstructured), and use your findings to inform the development of our models. - Work across the complete lifecy",
-      "apply_url": "https://jobs.ashbyhq.com/ema/9728a171-9617-4533-9f03-10c14c3b6ca5/application",
-      "job_url": "https://jobs.ashbyhq.com/ema/9728a171-9617-4533-9f03-10c14c3b6ca5",
-      "careers_url": "https://jobs.ashbyhq.com/ema",
-      "published_at": "2026-10-21T07:29:54.001000+00:00",
-      "employment_type": "FullTime",
-      "provider": "Ashby",
-      "source_status": "Official public job-posting API",
-      "salary": "$160,000 to $220,000 annually",
-      "deadline": "Not disclosed",
-      "is_remote": false,
-      "match_score": 72,
-      "skills_matched": [
-        "Python",
-        "SQL",
-        "Machine Learning"
-      ],
-      "match_reasons": [
-        "Role aligns with target software/data/AI work",
-        "Skills found: Python, SQL, Machine Learning",
-        "Potentially within early-career experience range",
-        "India-based or global-remote location signal"
-      ],
-      "eligibility": "Experience eligibility is unclear from the feed; review the full official description.",
-      "early_career_signal": false,
-      "seniority_flag": false,
-      "role_hits": [
-        "software engineer",
-        "machine learning"
-      ],
-      "url_domain_verified": true,
-      "source_company": "Ema",
       "fit_summary": "Rule-based match using role, skills, early-career wording, and location signals."
     },
     {
@@ -663,38 +543,6 @@
       "fit_summary": "Rule-based match using role, skills, early-career wording, and location signals."
     },
     {
-      "company": "Ema",
-      "title": "IT Engineer",
-      "location": "San Francisco Bay Area, United States",
-      "description": "ABOUT EMA Ema builds AI Employees for HR, IT and Finance. Our AI Employees take on the busy work across the employee experience, from recruiting, onboarding and benefits to IT support, invoice processing and payroll, so people can spend their time on work that needs them. Founded by former executives from Google, Coinbase, Flipkart, and Okta, our team includes engineers from premier tech companies and graduates of Stanford, MIT, UC Berkeley, CMU, and IITs. We are backed by industry leading investors including Accel, Naspers/Prosus, Creaegis, Section32, and angels like Sheryl Sandberg and Dustin Moskovitz. Headquartered in Silicon Valley and with offices in London, Bangalore and Vancouver, Ema is at the frontier of what Agentic AI can do in production. We ship real systems that run real business processes at scale. ABOUT THE ROLE As Ema scales, our corporate IT environment tools, access, devices, and compliance has outgrown an ownership-by-default model. We're hiring an IT Engineer to own it end to end. This is not a traditional helpdesk role. Ema is an agentic AI company, and we expect our own internal operations to reflect that. You'll run corporate IT while systematically automating it, using agentic tooling to remove the manual work rather than absorbing it. The measure of success in this role is how little of it remains manual after a year and every employee’s experience is great. WHAT YOU'LL DO - Agentic Workflows & Automation: Treat every recurring manual task as an automation candidate, extending existing systems and leveraging AI coding tools to design autonomous workflows. - Automated Identity & Access: Shift JML lifecycles, including global employee onboarding, Okta/SCIM provisioning, and access reviews from ticket-driven processes to policy-driven automation. - SaaS Lifecycle Automation: Programmatically maintain tool inventories, track utilization, and reclaim unused licenses automatically. - Automated Endpoint Security: Manage fleet MDM while automating OS patching, encryption baselines, and continuous drift detection. - Automated Compliance & Securit",
-      "apply_url": "https://jobs.ashbyhq.com/ema/1119c04d-6cbe-4edc-96f5-9cc3a6c16741/application",
-      "job_url": "https://jobs.ashbyhq.com/ema/1119c04d-6cbe-4edc-96f5-9cc3a6c16741",
-      "careers_url": "https://jobs.ashbyhq.com/ema",
-      "published_at": "2026-10-05T13:28:47.942000+00:00",
-      "employment_type": "FullTime",
-      "provider": "Ashby",
-      "source_status": "Official public job-posting API",
-      "salary": "Not disclosed",
-      "deadline": "Not disclosed",
-      "is_remote": true,
-      "match_score": 38,
-      "skills_matched": [
-        "Python"
-      ],
-      "match_reasons": [
-        "Skills found: Python",
-        "Entry-level / graduate signal found",
-        "India-based or global-remote location signal"
-      ],
-      "eligibility": "Possible early-career fit based on wording; confirm degree, graduation year and experience requirements.",
-      "early_career_signal": true,
-      "seniority_flag": false,
-      "role_hits": [],
-      "url_domain_verified": true,
-      "source_company": "Ema",
-      "fit_summary": "Rule-based match using role, skills, early-career wording, and location signals."
-    },
-    {
       "company": "Hevo Data",
       "title": "Associate Technical Writer",
       "location": "Bangalore, India",
@@ -724,38 +572,6 @@
       "role_hits": [],
       "url_domain_verified": true,
       "source_company": "Hevo Data",
-      "fit_summary": "Rule-based match using role, skills, early-career wording, and location signals."
-    },
-    {
-      "company": "Ema",
-      "title": "AI Application Engineer (Contractor role)",
-      "location": "San Francisco Bay Area",
-      "description": "ABOUT EMA Ema builds AI Employees for HR, IT and Finance. Our AI Employees take on the busy work across the employee experience, from recruiting, onboarding and benefits to IT support, invoice processing and payroll, so people can spend their time on work that needs them. Founded by former executives from Google, Coinbase, Flipkart, and Okta, our team includes engineers from premier tech companies and graduates of Stanford, MIT, UC Berkeley, CMU, and IITs. We are backed by industry leading investors including Accel, Naspers/Prosus, Creaegis, Section32, and angels like Sheryl Sandberg and Dustin Moskovitz. Headquartered in Silicon Valley and with offices in London, Bangalore and Vancouver, Ema is at the frontier of what Agentic AI can do in production. We ship real systems that run real business processes at scale. At Ema, we build AI Employees that operate inside the enterprise. Healthcare is where the bar is highest: the output has to be accurate, auditable, and clinically sound. We're opening a part-time role focused on agent measurement and improvement. You'll instrument how our healthcare AI Employees perform in production, identify where quality breaks down, and design the experiments that close the gap — partnering with clinical experts to ensure improvements translate into better patient outcomes, not just better metrics. We're looking for strong analytical judgment (Python, agent lead development), comfort operating with incomplete information, and genuine interest in the healthcare domain. Clinical experience is valued but not required. This engagement is structured as a paid internship or contract engagement, with weekly syncs in our Bay Area office. Compensation offered will be determined by factors such as location, level, job-related knowledge, skills, and experience. Certain roles may be eligible for variable compensation, equity, and benefits. Ema Unlimited is an equal opportunity employer and is committed to providing equal employment opportunities to all employees and applicants for employment without regard to race, color, religion, sex, national",
-      "apply_url": "https://jobs.ashbyhq.com/ema/ab094389-25ec-417b-b646-06969d166d06/application",
-      "job_url": "https://jobs.ashbyhq.com/ema/ab094389-25ec-417b-b646-06969d166d06",
-      "careers_url": "https://jobs.ashbyhq.com/ema",
-      "published_at": "2026-08-18T20:35:42.700000+00:00",
-      "employment_type": "FullTime",
-      "provider": "Ashby",
-      "source_status": "Official public job-posting API",
-      "salary": "Not disclosed",
-      "deadline": "Not disclosed",
-      "is_remote": false,
-      "match_score": 38,
-      "skills_matched": [
-        "Python"
-      ],
-      "match_reasons": [
-        "Skills found: Python",
-        "Entry-level / graduate signal found",
-        "India-based or global-remote location signal"
-      ],
-      "eligibility": "Possible early-career fit based on wording; confirm degree, graduation year and experience requirements.",
-      "early_career_signal": true,
-      "seniority_flag": false,
-      "role_hits": [],
-      "url_domain_verified": true,
-      "source_company": "Ema",
       "fit_summary": "Rule-based match using role, skills, early-career wording, and location signals."
     }
   ],
