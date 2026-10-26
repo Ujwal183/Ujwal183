@@ -236,6 +236,14 @@ def map_field(label: str, profile: dict[str, Any], full_name: str) -> tuple[str 
     if "portfolio" in text or "personal website" in text or text == "website":
         return _profile_value(profile, "portfolio_url"), "text"
     if "sponsorship" in text or "sponsor" in text or "visa" in text:
+        explicit_foreign = any(country_term in text for country_term in (
+            "united states", "u.s.", " usa ", "canada", "united kingdom", " uk ",
+            "australia", "singapore", "germany", "france", "spain", "netherlands",
+            "united arab emirates", "uae", "japan"
+        ))
+        # Sponsorship varies by destination country; a generic preference is not enough for an explicit foreign-country question.
+        if explicit_foreign:
+            return None, "unknown"
         value = _profile_value(profile, "requires_sponsorship")
         if not value:
             return None, "unknown"
@@ -243,7 +251,14 @@ def map_field(label: str, profile: dict[str, Any], full_name: str) -> tuple[str 
             return _profile_value(profile, "visa_status"), "text"
         return value, "radio"
     if ("authorized" in text or "authorised" in text or "right to work" in text or "legally eligible to work" in text):
-        value = _profile_value(profile, "authorized_to_work")
+        # The profile answer is explicitly about India. Never reuse it for another country's authorization question.
+        explicit_foreign = any(country_term in text for country_term in (
+            "united states", "u.s.", " usa ", "canada", "united kingdom", " uk ",
+            "australia", "singapore", "germany", "france", "spain", "netherlands",
+            "united arab emirates", "uae", "japan"
+        ))
+        india_context = "india" in text or not explicit_foreign
+        value = _profile_value(profile, "authorized_to_work") if india_context else ""
         return (value, "radio") if value else (None, "unknown")
     if "street address" in text or re.search(r"\baddress line\b|\bhome address\b", text):
         value = _profile_value(profile, "street_address")
@@ -633,10 +648,7 @@ def run_agent(submit: bool, jobs_file: str | None = None, max_applications: int 
                 save_json(LOG_PATH, log)
                 records.append(item)
                 print(status.upper() + ": " + item["title"] + " — " + item["company"] + " — " + message)
-                if status in ("submitted", "submission_uncertain", "manual_review", "closed"):
-                    # Stop at the first manual intervention requirement rather than silently trying other forms.
-                    if status == "manual_review":
-                        break
+
             except Exception as exc:
                 item["status"] = "error"
                 item["message"] = str(exc)[:400]
