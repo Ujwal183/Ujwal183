@@ -320,7 +320,7 @@ def normalize_lever(source: dict[str, Any]) -> list[dict[str, Any]]:
             "company": source["company"], "title": item.get("text") or "Untitled role",
             "location": location, "description": combined, "apply_url": apply, "job_url": hosted,
             "careers_url": source["careers_url"], "published_at": fmt_date(item.get("createdAt")),
-            "employment_type": ("Internship" if re.search(r"\\bintern(ship)?\\b", str(item.get("text") or ""), re.I) else (categories.get("commitment") or "Not disclosed")), "provider": "Lever",
+            "employment_type": ("Internship" if re.search(r"\bintern(ship)?\b", str(item.get("text") or ""), re.I) else (categories.get("commitment") or "Not disclosed")), "provider": "Lever",
             "source_status": "Official public job-postings API", "salary": salary_from_text(combined),
             "deadline": deadline_from_text(combined), "is_remote": "remote" in (location + " " + combined).lower()
         })
