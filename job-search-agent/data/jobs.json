@@ -1,0 +1,43 @@
+{
+  "generated_at": null,
+  "status": "awaiting_first_run",
+  "profile": {
+    "target_roles": [
+      "Junior Java Developer",
+      "Python Developer",
+      "Backend Developer",
+      "Associate Software Engineer",
+      "Data Engineer",
+      "Automation Engineer",
+      "Junior AI Engineer"
+    ],
+    "locations": [
+      "Bengaluru",
+      "Hyderabad",
+      "Chennai",
+      "India",
+      "Remote"
+    ],
+    "skills": [
+      "Java",
+      "Python",
+      "SQL",
+      "MySQL",
+      "JDBC",
+      "FastAPI",
+      "REST APIs",
+      "Pandas",
+      "NumPy",
+      "Excel Automation",
+      "Machine Learning",
+      "Generative AI"
+    ]
+  },
+  "sources": [],
+  "jobs": [],
+  "notes": [
+    "The scheduled collector will replace this file after its first successful run.",
+    "Salary and deadlines are only shown when stated by the employer.",
+    "Role fit and experience eligibility are estimates; verify requirements on the official application page."
+  ]
+}
