@@ -108,7 +108,7 @@ with st.form("profile_form", clear_on_submit=False):
         smtp_port = st.number_input("SMTP port", min_value=1, max_value=65535, value=int(env.get("SMTP_PORT", "587")))
         smtp_username = st.text_input("SMTP username / sender address", value=env.get("SMTP_USERNAME", ""))
     with ec2:
-        smtp_password = st.text_input("SMTP password / app password", value="", type="password", help="Leave blank to keep the saved password. For Gmail, use an App Password, not your normal account password.")
+        smtp_password = st.text_input("SMTP password / app password", value="", type="password", help="Leave blank to keep the saved password. It is kept in your operating-system credential store, not in the repository. For Gmail, use an App Password, not your normal account password.")
         report_to = st.text_input("Send reports to email address", value=env.get("REPORT_TO", ""))
         report_from = st.text_input("From address (optional)", value=env.get("REPORT_FROM", ""))
 
@@ -167,9 +167,17 @@ def save_current_settings() -> tuple[bool, str]:
             "SMTP_USERNAME": smtp_username.strip(), "REPORT_TO": report_to.strip(),
             "REPORT_FROM": report_from.strip()
         })
+        # Store SMTP password via the operating-system credential store, never project files.
         if smtp_password.strip():
-            env_values["SMTP_PASSWORD"] = smtp_password.strip()
-        ENV_PATH.write_text("\n".join(k + "=" + v.replace("\n", "").replace("\r", "") for k, v in env_values.items()) + "\n", encoding="utf-8")
+            if not smtp_username.strip():
+                return False, "Enter your SMTP username before saving the app password."
+            try:
+                import keyring
+                keyring.set_password("JobScout", smtp_username.strip(), smtp_password.strip())
+            except Exception as exc:
+                return False, "Could not store the SMTP password in the operating-system credential store: " + str(exc)[:250]
+        env_values.pop("SMTP_PASSWORD", None)
+        ENV_PATH.write_text("\\n".join(k + "=" + v.replace("\\n", "").replace("\\r", "") for k, v in env_values.items()) + "\\n", encoding="utf-8")
         try:
             os.chmod(ENV_PATH, 0o600)
         except OSError:
