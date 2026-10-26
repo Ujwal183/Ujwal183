@@ -1,0 +1,15 @@
+# These files can contain personally identifiable information or credentials.
+.env
+profile.json
+candidate_profile.json
+resume
+resume.*
+*.pdf
+*.docx
+*.txt
+!requirements-auto-apply.txt
+applications.json
+reports/
+user_data/
+__pycache__/
+.venv/
