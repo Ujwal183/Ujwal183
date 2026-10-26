@@ -1,0 +1,58 @@
+[
+  {
+    "company": "Hevo Data",
+    "provider": "lever",
+    "slug": "hevodata",
+    "careers_url": "https://jobs.lever.co/hevodata",
+    "focus": "Software engineering, backend, data"
+  },
+  {
+    "company": "Zimperium",
+    "provider": "lever",
+    "slug": "zimperium",
+    "careers_url": "https://jobs.lever.co/zimperium",
+    "focus": "Java, Python, QA automation, security"
+  },
+  {
+    "company": "Lingaro",
+    "provider": "lever",
+    "slug": "lingarogroup",
+    "careers_url": "https://jobs.lever.co/lingarogroup",
+    "focus": "Java, Python, backend, data"
+  },
+  {
+    "company": "Trackmind",
+    "provider": "lever",
+    "slug": "trackmind",
+    "careers_url": "https://jobs.lever.co/trackmind",
+    "focus": "Junior AI, Python, backend"
+  },
+  {
+    "company": "Everbridge",
+    "provider": "lever",
+    "slug": "everbridge",
+    "careers_url": "https://jobs.lever.co/everbridge",
+    "focus": "Software engineering, India remote"
+  },
+  {
+    "company": "FirstWork",
+    "provider": "ashby",
+    "slug": "firstwork",
+    "careers_url": "https://jobs.ashbyhq.com/firstwork",
+    "focus": "Software engineering, AI, India"
+  },
+  {
+    "company": "Ema",
+    "provider": "ashby",
+    "slug": "ema",
+    "careers_url": "https://jobs.ashbyhq.com/ema",
+    "focus": "Backend, AI, India"
+  },
+  {
+    "company": "Yobi",
+    "provider": "ashby",
+    "slug": "yobi",
+    "careers_url": "https://jobs.ashbyhq.com/yobi",
+    "focus": "AI and software roles"
+  }
+]
