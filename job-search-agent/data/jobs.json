@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T11:15:12+00:00",
+  "generated_at": "2026-10-26T11:16:48+00:00",
   "status": "ok",
   "profile": {
     "target_roles": [
@@ -53,7 +53,7 @@
       "provider": "Lever",
       "status": "ok",
       "jobs_seen": 20,
-      "matches": 2,
+      "matches": 1,
       "message": ""
     },
     {
@@ -472,40 +472,6 @@
       "role_hits": [],
       "url_domain_verified": true,
       "source_company": "Lingaro",
-      "fit_summary": "Rule-based match using role, skills, early-career wording, and location signals."
-    },
-    {
-      "company": "Zimperium",
-      "title": "Detection Researcher (Coding Focused)",
-      "location": "Spain (Remote)",
-      "description": "Zimperium® is the world leader in mobile security, purpose-built to protect the modern mobile enterprise. Trusted by leading organizations and governments, our AI-driven platform delivers real-time, on-device protection for mobile applications and devices. We help organizations stay ahead with proactive defense against evolving threats—including mobile-targeted phishing (mishing), malware, app vulnerabilities, and zero-day exploits. Our mission is to empower organizations to operate securely and confidently in today’s dynamic digital environment. Location: Worldwide with preference for candidates in Europe Zimperium® is an industry leader in enterprise mobile security, being the first and only company to provide a complete mobile threat defense system that offers real-time, on device world-class protection against both known and unknown next generation of advanced mobile cyberattacks and malware. Our MTD and award-winning machine learning-based engine protects against device, network, phishing and application attacks for IOS, Android and Windows devices, using a non-intrusive approach to always protect privacy of users. We are currently looking for a Detection Researcher. This role involves researching, developing, and maintaining advanced detection and analysis capabilities to counter complex tampering and evasion techniques. The successful candidate will design new tools, improve existing ones, perform thorough code reviews, and help define and uphold high coding standards across the team. Strong programming skills and a collaborative mindset are essential. Experience with the LLVM framework and knowledge of code obfuscation and de-obfuscation techniques are considered strong assets. Research and analyze advanced detection bypass techniques (e.g., rooting, hooking, and runtime application/system tampering) to assess threats to our detection systems. Evaluate and reverse-engineer tools and frameworks used to attack or evade our products, documenting findings and attack vectors. Lead and participate in structured brainstorming sessions to generate novel detection ",
-      "apply_url": "https://jobs.lever.co/zimperium/a836db18-6efb-4686-af26-09060b68f166/apply",
-      "job_url": "https://jobs.lever.co/zimperium/a836db18-6efb-4686-af26-09060b68f166",
-      "careers_url": "https://jobs.lever.co/zimperium",
-      "published_at": "2026-01-26T00:10:54.486000+00:00",
-      "employment_type": "Not disclosed",
-      "provider": "Lever",
-      "source_status": "Official public job-postings API",
-      "salary": "Not disclosed",
-      "deadline": "Not disclosed",
-      "is_remote": true,
-      "match_score": 50,
-      "skills_matched": [
-        "Java",
-        "Python",
-        "Machine Learning"
-      ],
-      "match_reasons": [
-        "Skills found: Java, Python, Machine Learning",
-        "Entry-level / graduate signal found",
-        "India-based or global-remote location signal"
-      ],
-      "eligibility": "Possible early-career fit based on wording; confirm degree, graduation year and experience requirements.",
-      "early_career_signal": true,
-      "seniority_flag": false,
-      "role_hits": [],
-      "url_domain_verified": true,
-      "source_company": "Zimperium",
       "fit_summary": "Rule-based match using role, skills, early-career wording, and location signals."
     },
     {

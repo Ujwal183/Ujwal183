@@ -1,8 +1,8 @@
 # Job Scout — Daily Job Digest
 
-Last scan: 2026-10-26T11:15:12+00:00
+Last scan: 2026-10-26T11:16:48+00:00
 
-Relevant postings found: 13
+Relevant postings found: 12
 
 > Only published public career-board feeds are used. Verify eligibility and application status on the employer-hosted posting. Salary/deadline fields are not guessed.
 
@@ -118,18 +118,7 @@ Relevant postings found: 13
 - Official job: https://jobs.lever.co/lingarogroup/b57c92ac-62af-40c0-a5d6-d2fa2b4444db/apply
 - Employer career board: https://jobs.lever.co/lingarogroup
 
-### 11. Detection Researcher (Coding Focused) — Zimperium
-
-- Match score: 50%
-- Location: Spain (Remote)
-- Experience signal: Possible early-career fit based on wording; confirm degree, graduation year and experience requirements.
-- Salary / CTC: Not disclosed
-- Deadline: Not disclosed
-- Skills found: Java, Python, Machine Learning
-- Official job: https://jobs.lever.co/zimperium/a836db18-6efb-4686-af26-09060b68f166/apply
-- Employer career board: https://jobs.lever.co/zimperium
-
-### 12. AI Solution Engineer — Hevo Data
+### 11. AI Solution Engineer — Hevo Data
 
 - Match score: 50%
 - Location: Bangalore, India
@@ -140,7 +129,7 @@ Relevant postings found: 13
 - Official job: https://jobs.lever.co/hevodata/a7f26742-f965-4a59-840d-f7afa0a28176/apply
 - Employer career board: https://jobs.lever.co/hevodata
 
-### 13. Associate Technical Writer — Hevo Data
+### 12. Associate Technical Writer — Hevo Data
 
 - Match score: 38%
 - Location: Bangalore, India
