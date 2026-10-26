@@ -55,5 +55,18 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add job-search-agent/data/jobs.json job-search-agent/data/latest.md
           git commit -m "chore: refresh Job Scout listings"
-          git pull --rebase origin main
-          git push
+          for attempt in 1 2 3 4 5; do
+            if ! git pull --rebase origin main; then
+              echo "Rebase failed; aborting rather than overwriting repository changes."
+              git rebase --abort || true
+              exit 1
+            fi
+            if git push; then
+              echo "Job feed saved successfully."
+              exit 0
+            fi
+            echo "Remote changed during push (attempt ${attempt}/5); retrying after a short pause."
+            sleep 2
+          done
+          echo "Could not save job feed after 5 attempts."
+          exit 1
