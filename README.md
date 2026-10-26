@@ -1,7 +1,8 @@
-> **🌐 Interactive website:** [Launch GitScope](https://ujwal183.github.io/Ujwal183/) · [View source code](https://github.com/Ujwal183/Ujwal183)
+> **🌐 Interactive website:** [Launch GitScope](https://ujwal183.github.io/Ujwal183/) · [Launch Job Scout](https://ujwal183.github.io/Ujwal183/job-search-agent/) · [View source code](https://github.com/Ujwal183/Ujwal183)
+>
+> **Job Scout** is a daily job-discovery agent for Java, Python, backend, data, automation, and AI roles. It ranks postings from configured public employer ATS feeds and links to the official application page. Salary and deadlines are marked "Not disclosed" when not stated.
 >
 > GitScope is a live GitHub profile explorer with profile search, repository filters, public activity, language analytics, README previews, and a light/dark theme. To publish it, enable GitHub Pages in **Settings → Pages → Deploy from a branch → main → / (root) → Save**. The website files are `index.html`, `styles.css`, and `app.js`.
-
 ---
 
 <!--
