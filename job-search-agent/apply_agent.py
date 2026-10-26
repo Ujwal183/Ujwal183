@@ -75,14 +75,23 @@ def now_iso() -> str:
 
 def read_env(path: Path = ENV_PATH) -> dict[str, str]:
     values: dict[str, str] = {}
-    if not path.exists():
-        return values
-    for line in path.read_text(encoding="utf-8").splitlines():
-        row = line.strip()
-        if not row or row.startswith("#") or "=" not in row:
-            continue
-        key, value = row.split("=", 1)
-        values[key.strip()] = value.strip().strip('"').strip("'")
+    if path.exists():
+        for line in path.read_text(encoding="utf-8").splitlines():
+            row = line.strip()
+            if not row or row.startswith("#") or "=" not in row:
+                continue
+            key, value = row.split("=", 1)
+            values[key.strip()] = value.strip().strip('"').strip("'")
+    # Prefer the operating system credential store; environment variables are an optional fallback.
+    smtp_user = values.get("SMTP_USERNAME", "")
+    password = ""
+    if smtp_user:
+        try:
+            import keyring
+            password = keyring.get_password("JobScout", smtp_user) or ""
+        except Exception:
+            password = ""
+    values["SMTP_PASSWORD"] = password or os.getenv("SMTP_PASSWORD", "") or values.get("SMTP_PASSWORD", "")
     return values
 
 
@@ -494,7 +503,7 @@ def application_log() -> dict[str, Any]:
 
 def already_applied(log: dict[str, Any], url: str) -> bool:
     key = canonical_url(url)
-    done_statuses = {"submitted", "submission_uncertain"}
+    done_statuses = {"submitted", "submission_uncertain", "manual_review"}
     for item in log.get("applications", []):
         if item.get("status") not in done_statuses:
             continue
