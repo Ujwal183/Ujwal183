@@ -27,7 +27,7 @@ if (-not (Test-Path $VenvPython)) { throw "Could not create Python virtual envir
 
 $TaskName = "JobScoutAutoApply"
 $RunnerPath = Join-Path $ProjectRoot "apply_agent.py"
-$Arguments = '"' + $RunnerPath + '" --submit --max-applications 5'
+$Arguments = '"' + $RunnerPath + '" --submit'
 $Action = New-ScheduledTaskAction -Execute $VenvPython -Argument $Arguments -WorkingDirectory $ProjectRoot
 $Trigger = New-ScheduledTaskTrigger -Daily -At 9:20AM
 $Principal = New-ScheduledTaskPrincipal -UserId "$env:USERDOMAIN\$env:USERNAME" -LogonType Interactive -RunLevel Limited
