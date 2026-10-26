@@ -480,7 +480,18 @@ def application_log() -> dict[str, Any]:
 def already_applied(log: dict[str, Any], url: str) -> bool:
     key = canonical_url(url)
     done_statuses = {"submitted", "submission_uncertain"}
-    return any(canonical_url(x.get("job_url", "")) == key and x.get("status") in done_statuses for x in log.get("applications", []))
+    for item in log.get("applications", []):
+        if item.get("status") not in done_statuses:
+            continue
+        known_urls = [
+            canonical_url(item.get("application_key", "")),
+            canonical_url(item.get("apply_url", "")),
+            canonical_url(item.get("job_url", "")),
+            canonical_url(item.get("posting_url", ""))
+        ]
+        if key and key in known_urls:
+            return True
+    return False
 
 
 def send_email_report(subject: str, body: str, env: dict[str, str]) -> tuple[bool, str]:
@@ -578,7 +589,15 @@ def run_agent(submit: bool, jobs_file: str | None = None, max_applications: int 
     candidates.sort(key=lambda item: item[1]["resume_match_score"], reverse=True)
     candidates = candidates[:max(1, max_applications)]
     if not candidates:
-        report = format_report("AUTO-SUBMIT" if submit else "DRY RUN", [], now_iso(), now_iso())
+        started_empty = now_iso()
+        ended_empty = now_iso()
+        report = format_report("AUTO-SUBMIT" if submit else "DRY RUN — NO APPLICATIONS SENT", [], started_empty, ended_empty)
+        REPORT_DIR.mkdir(parents=True, exist_ok=True)
+        empty_report_path = REPORT_DIR / ("report-" + datetime.now().strftime("%Y%m%d-%H%M%S") + ".txt")
+        empty_report_path.write_text(report, encoding="utf-8")
+        mail_ok, mail_note = send_email_report("Job Scout application report — " + datetime.now().strftime("%d %b %Y"), report, read_env())
+        report += "\\n" + mail_note + "\\n"
+        print(report)
         return [], report
 
     try:
@@ -594,7 +613,8 @@ def run_agent(submit: bool, jobs_file: str | None = None, max_applications: int 
         for job, match in candidates:
             url = job.get("apply_url") or job.get("job_url")
             item = {
-                "job_url": job.get("job_url") or url, "apply_url": url,
+                "job_url": url, "apply_url": url, "application_key": canonical_url(url),
+                "posting_url": job.get("job_url") or url,
                 "company": job.get("company", "Unknown"), "title": job.get("title", "Untitled"),
                 "location": job.get("location", "Not disclosed"), "resume_match_score": match["resume_match_score"],
                 "overlapping_skills": match["overlapping_skills"], "status": "pending", "message": ""
