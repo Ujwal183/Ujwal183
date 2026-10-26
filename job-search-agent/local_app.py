@@ -177,7 +177,7 @@ def save_current_settings() -> tuple[bool, str]:
             except Exception as exc:
                 return False, "Could not store the SMTP password in the operating-system credential store: " + str(exc)[:250]
         env_values.pop("SMTP_PASSWORD", None)
-        ENV_PATH.write_text("\\n".join(k + "=" + v.replace("\\n", "").replace("\\r", "") for k, v in env_values.items()) + "\\n", encoding="utf-8")
+        ENV_PATH.write_text("\n".join(k + "=" + v.replace("\n", "").replace("\r", "") for k, v in env_values.items()) + "\n", encoding="utf-8")
         try:
             os.chmod(ENV_PATH, 0o600)
         except OSError:
