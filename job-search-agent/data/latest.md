@@ -1,8 +1,8 @@
 # Job Scout — Daily Job Digest
 
-Last scan: 2026-10-26T11:16:48+00:00
+Last scan: 2026-10-26T11:18:40+00:00
 
-Relevant postings found: 12
+Relevant postings found: 6
 
 > Only published public career-board feeds are used. Verify eligibility and application status on the employer-hosted posting. Salary/deadline fields are not guessed.
 
@@ -30,16 +30,16 @@ Relevant postings found: 12
 - Official job: https://jobs.lever.co/hevodata/993a3ed3-3014-432f-b0f4-28d300d58d9a/apply
 - Employer career board: https://jobs.lever.co/hevodata
 
-### 3. Java Developer — Lingaro
+### 3. SDE I — Hevo Data
 
-- Match score: 82%
-- Location: India
-- Experience signal: Possible early-career fit based on wording; confirm degree, graduation year and experience requirements.
+- Match score: 72%
+- Location: Bangalore, India
+- Experience signal: Experience eligibility is unclear from the feed; review the full official description.
 - Salary / CTC: Not disclosed
 - Deadline: Not disclosed
-- Skills found: Java, MySQL, Git
-- Official job: https://jobs.lever.co/lingarogroup/853310f4-9cc3-45b7-ac29-cf5a624f3c40/apply
-- Employer career board: https://jobs.lever.co/lingarogroup
+- Skills found: Java, Python, REST APIs
+- Official job: https://jobs.lever.co/hevodata/6cbbe304-e065-4711-bf3e-756795d2bc2a/apply
+- Employer career board: https://jobs.lever.co/hevodata
 
 ### 4. Software Engineer — FirstWork
 
@@ -63,82 +63,16 @@ Relevant postings found: 12
 - Official job: https://jobs.lever.co/zimperium/aa5febcf-51f0-40c2-81e3-a86ab39fef82/apply
 - Employer career board: https://jobs.lever.co/zimperium
 
-### 6. Associate Customer Experience Engineer — Hevo Data
+### 6. Java Developer — Lingaro
 
 - Match score: 62%
-- Location: Pune, Maharashtra
-- Experience signal: Possible early-career fit based on wording; confirm degree, graduation year and experience requirements.
-- Salary / CTC: Not disclosed
-- Deadline: Not disclosed
-- Skills found: Java, SQL, MySQL, JDBC, REST APIs
-- Official job: https://jobs.lever.co/hevodata/96993ebc-609a-4733-84cd-e1a0c3e69fda/apply
-- Employer career board: https://jobs.lever.co/hevodata
-
-### 7. Business System Engineer — Hevo Data
-
-- Match score: 62%
-- Location: Bangalore, India
-- Experience signal: Possible early-career fit based on wording; confirm degree, graduation year and experience requirements.
-- Salary / CTC: Not disclosed
-- Deadline: Not disclosed
-- Skills found: Python, SQL, Generative AI, Git, JavaScript
-- Official job: https://jobs.lever.co/hevodata/95ab9f01-3671-4073-9990-4418aecb24e7/apply
-- Employer career board: https://jobs.lever.co/hevodata
-
-### 8. ML/AI Engineer - Classical ML — Lingaro
-
-- Match score: 50%
 - Location: India
-- Experience signal: Possible early-career fit based on wording; confirm degree, graduation year and experience requirements.
+- Experience signal: Experience eligibility is unclear from the feed; review the full official description.
 - Salary / CTC: Not disclosed
 - Deadline: Not disclosed
-- Skills found: Python, SQL, Machine Learning
-- Official job: https://jobs.lever.co/lingarogroup/553e0c1b-895e-401c-824b-e83bb983f225/apply
+- Skills found: Java, MySQL, Git
+- Official job: https://jobs.lever.co/lingarogroup/853310f4-9cc3-45b7-ac29-cf5a624f3c40/apply
 - Employer career board: https://jobs.lever.co/lingarogroup
-
-### 9. SDE I — Hevo Data
-
-- Match score: 50%
-- Location: Bangalore, India
-- Experience signal: Possible early-career fit based on wording; confirm degree, graduation year and experience requirements.
-- Salary / CTC: Not disclosed
-- Deadline: Not disclosed
-- Skills found: Java, Python, REST APIs
-- Official job: https://jobs.lever.co/hevodata/6cbbe304-e065-4711-bf3e-756795d2bc2a/apply
-- Employer career board: https://jobs.lever.co/hevodata
-
-### 10. Data Scientist - Forecasting — Lingaro
-
-- Match score: 50%
-- Location: India
-- Experience signal: Possible early-career fit based on wording; confirm degree, graduation year and experience requirements.
-- Salary / CTC: Not disclosed
-- Deadline: Not disclosed
-- Skills found: Python, SQL, Machine Learning
-- Official job: https://jobs.lever.co/lingarogroup/b57c92ac-62af-40c0-a5d6-d2fa2b4444db/apply
-- Employer career board: https://jobs.lever.co/lingarogroup
-
-### 11. AI Solution Engineer — Hevo Data
-
-- Match score: 50%
-- Location: Bangalore, India
-- Experience signal: Possible early-career fit based on wording; confirm degree, graduation year and experience requirements.
-- Salary / CTC: Not disclosed
-- Deadline: Not disclosed
-- Skills found: Python, FastAPI, Generative AI
-- Official job: https://jobs.lever.co/hevodata/a7f26742-f965-4a59-840d-f7afa0a28176/apply
-- Employer career board: https://jobs.lever.co/hevodata
-
-### 12. Associate Technical Writer — Hevo Data
-
-- Match score: 38%
-- Location: Bangalore, India
-- Experience signal: Possible early-career fit based on wording; confirm degree, graduation year and experience requirements.
-- Salary / CTC: Not disclosed
-- Deadline: Not disclosed
-- Skills found: Git
-- Official job: https://jobs.lever.co/hevodata/8334030a-d6e3-46cc-96a4-f16c5412ed74/apply
-- Employer career board: https://jobs.lever.co/hevodata
 
 ## Source health
 
