@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101827">
+  <meta name="description" content="Job Scout finds early-career software, Python, Java, backend, data and AI jobs from official company career feeds.">
+  <title>Job Scout — Verified Early-Career Jobs</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+  <script defer src="./app.js"></script>
+</head>
+<body>
+  <div class="ambient ambient-a"></div><div class="ambient ambient-b"></div>
+  <header class="topbar">
+    <a class="brand" href="./" aria-label="Job Scout home">
+      <span class="brand-mark"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7.5h16v12H4z"/><path d="M8 7.5V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2.5M4 12h16M10 12v2h4v-2"/></svg></span>
+      <span>job<span class="brand-light">scout</span><small>EARLY CAREER RADAR</small></span>
+    </a>
+    <div class="topbar-right"><span class="live-dot"></span><span id="feed-status">Preparing feed</span><button class="icon-button" id="refresh-btn" type="button" title="Reload job feed" aria-label="Reload job feed">↻</button></div>
+  </header>
+
+  <main class="page-shell">
+    <section class="hero">
+      <div class="hero-copy">
+        <span class="eyebrow"><span class="spark">✦</span> PERSONALIZED JOB INTELLIGENCE</span>
+        <h1>Find the right first<br><span>opportunity.</span></h1>
+        <p>Less scrolling. More signal. A daily shortlist of software and AI roles matched to your skills, checked against official hiring feeds.</p>
+        <div class="hero-tags"><span>Java + Python</span><span>Backend & Data</span><span>India-first</span></div>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="radar-core"><span class="radar-star">✦</span></div>
+        <div class="radar-chip chip-top"><span class="chip-dot green"></span> Official source</div>
+        <div class="radar-chip chip-right"><strong>AI</strong> Match score</div>
+        <div class="radar-chip chip-bottom"><span class="chip-dot blue"></span> Early-career fit</div>
+      </div>
+    </section>
+
+    <section class="stats-grid" aria-label="Job feed statistics">
+      <article class="stat-card"><span class="stat-label">OPEN MATCHES</span><div class="stat-value" id="stat-open">—</div><div class="stat-note">Relevant roles in this feed</div></article>
+      <article class="stat-card"><span class="stat-label">STRONG FITS</span><div class="stat-value" id="stat-strong">—</div><div class="stat-note">Match score of 70% or higher</div></article>
+      <article class="stat-card"><span class="stat-label">OFFICIAL FEEDS</span><div class="stat-value" id="stat-sources">—</div><div class="stat-note" id="stat-source-note">Career board checks</div></article>
+      <article class="stat-card"><span class="stat-label">LAST SCAN</span><div class="stat-value stat-date" id="stat-updated">Waiting</div><div class="stat-note">Scheduled daily at 9 AM IST</div></article>
+    </section>
+
+    <section class="workspace">
+      <div class="section-heading">
+        <div><span class="eyebrow muted">YOUR SHORTLIST</span><h2>Opportunities worth a look</h2><p>Every card links to the employer-hosted job post. Confirm eligibility before applying.</p></div>
+        <span class="feed-pill"><span class="chip-dot green"></span> Official ATS feeds</span>
+      </div>
+
+      <div class="filter-panel">
+        <label class="search-control"><span aria-hidden="true">⌕</span><input type="search" id="search-input" placeholder="Search title, company or skill…" autocomplete="off"><kbd>/</kbd></label>
+        <label class="select-control"><span>Location</span><select id="location-filter"><option value="all">All preferred locations</option><option value="Bengaluru">Bengaluru</option><option value="Hyderabad">Hyderabad</option><option value="Chennai">Chennai</option><option value="India">Anywhere in India</option><option value="Remote">Remote</option></select></label>
+        <label class="select-control"><span>Role focus</span><select id="role-filter"><option value="all">All matching roles</option><option value="java">Java development</option><option value="python">Python development</option><option value="backend">Backend engineering</option><option value="data">Data / automation</option><option value="ai">AI / ML</option><option value="qa">QA / test automation</option></select></label>
+        <label class="select-control"><span>Minimum match</span><select id="match-filter"><option value="0">Any score</option><option value="40">40%+</option><option value="55" selected>55%+</option><option value="70">70%+ strong fit</option><option value="85">85%+ highest fit</option></select></label>
+      </div>
+
+      <div class="result-toolbar"><span id="result-count">Loading opportunities…</span><label>Sort by <select id="sort-filter"><option value="match">Best match</option><option value="recent">Recently posted</option><option value="company">Company A–Z</option></select></label></div>
+      <div id="notice" class="notice" role="status">Loading the latest job data…</div>
+      <div id="job-list" class="job-list" aria-live="polite"></div>
+      <div id="empty-state" class="empty-state hidden"><div class="empty-icon">⌕</div><h3>No matching roles in this scan</h3><p>Try lowering the minimum match, choosing another location, or checking back after the next scan.</p><button id="reset-btn" class="secondary-button" type="button">Clear filters</button></div>
+    </section>
+
+    <section class="trust-panel">
+      <div class="trust-icon">✓</div><div><h3>Built to prioritize trust</h3><p>Job Scout reads public employer-hosted ATS feeds. It never invents pay or deadlines. Match scores and eligibility hints are estimates—not hiring decisions.</p></div>
+      <a href="https://github.com/Ujwal183/Ujwal183/tree/main/job-search-agent" target="_blank" rel="noopener noreferrer">View project ↗</a>
+    </section>
+    <footer><span>JOB SCOUT <span class="footer-dot">•</span> A personal job-discovery assistant</span><span>Always verify the final application details with the employer.</span></footer>
+  </main>
+</body>
+</html>
