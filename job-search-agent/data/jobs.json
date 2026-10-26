@@ -1,6 +1,6 @@
 {
-  "generated_at": null,
-  "status": "awaiting_first_run",
+  "generated_at": "2026-10-26T11:12:42+00:00",
+  "status": "ok",
   "profile": {
     "target_roles": [
       "Junior Java Developer",
@@ -30,14 +30,739 @@
       "NumPy",
       "Excel Automation",
       "Machine Learning",
-      "Generative AI"
+      "Generative AI",
+      "Git",
+      "GitHub",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Power BI"
     ]
   },
-  "sources": [],
-  "jobs": [],
+  "sources": [
+    {
+      "company": "Hevo Data",
+      "provider": "Lever",
+      "status": "ok",
+      "jobs_seen": 53,
+      "matches": 6,
+      "message": ""
+    },
+    {
+      "company": "Zimperium",
+      "provider": "Lever",
+      "status": "ok",
+      "jobs_seen": 20,
+      "matches": 2,
+      "message": ""
+    },
+    {
+      "company": "Lingaro",
+      "provider": "Lever",
+      "status": "ok",
+      "jobs_seen": 67,
+      "matches": 3,
+      "message": ""
+    },
+    {
+      "company": "Trackmind",
+      "provider": "Lever",
+      "status": "ok",
+      "jobs_seen": 5,
+      "matches": 1,
+      "message": ""
+    },
+    {
+      "company": "Everbridge",
+      "provider": "Lever",
+      "status": "ok",
+      "jobs_seen": 26,
+      "matches": 0,
+      "message": ""
+    },
+    {
+      "company": "FirstWork",
+      "provider": "Ashby",
+      "status": "ok",
+      "jobs_seen": 13,
+      "matches": 1,
+      "message": ""
+    },
+    {
+      "company": "Ema",
+      "provider": "Ashby",
+      "status": "ok",
+      "jobs_seen": 38,
+      "matches": 5,
+      "message": ""
+    },
+    {
+      "company": "Yobi",
+      "provider": "Ashby",
+      "status": "ok",
+      "jobs_seen": 5,
+      "matches": 0,
+      "message": ""
+    }
+  ],
+  "jobs": [
+    {
+      "company": "Trackmind",
+      "title": "Junior AI Engineer",
+      "location": "Hyderabad",
+      "description": "We are looking for a Junior AI Engineer with 6 months to 2 years of experience who is passionate about Artificial Intelligence and interested in building practical, real-world AI applications.The candidate should have hands-on experience with Python, AI/ML concepts, data handling, and web technologies. Exposure to Generative AI/LLMs and frontend frameworks will be an added advantage. Develop and implement AI/ML solutions using Python. Support data preparation, preprocessing, model development, testing, and evaluation . Work with Generative AI, LLMs, and AI-based applications . Develop and integrate AI solutions with web applications and frontend interfaces . Work with HTML, CSS, JavaScript , and frontend frameworks such as React or Angular . Integrate and work with REST APIs and databases . Debug, test, and improve AI/ML applications for better performance and reliability. Write clean, maintainable, and well-documented code . Collaborate with the technical team to solve real-world business problems . Learn and work with emerging AI/ML and software development technologies . 6 months – 2 years of relevant experience in AI/ML or software development. Strong knowledge of Python and programming fundamentals. Good understanding of AI/ML concepts , model development, testing, and evaluation. Hands-on experience with NumPy, Pandas, and Scikit-learn . Good knowledge of Data Structures and Problem Solving . Good understanding of HTML, CSS, and JavaScript . Exposure to React or Angular is an added advantage. Good understanding of Generative AI and LLMs is preferred. Knowledge of Prompt Engineering, RAG, or LangChain is an added advantage. Good understanding of REST APIs and SQL/Databases is preferred. Strong communication, logical thinking, and willingness to learn new technologies. Opportunity to work on real-world AI/ML and technology projects . Hands-on exposure to Generative AI, LLMs, and modern AI technologies . Opportunity to work with experienced technical and engineering teams . Continuous learning and professional development opportunities. Exposure to enterprise t",
+      "apply_url": "https://jobs.lever.co/trackmind/ad66c0ec-1ae9-47cb-9d5d-83ae1cb6d200/apply",
+      "job_url": "https://jobs.lever.co/trackmind/ad66c0ec-1ae9-47cb-9d5d-83ae1cb6d200",
+      "careers_url": "https://jobs.lever.co/trackmind",
+      "published_at": "2026-09-15T13:16:32.891000+00:00",
+      "employment_type": "Internship",
+      "provider": "Lever",
+      "source_status": "Official public job-postings API",
+      "salary": "Not disclosed",
+      "deadline": "Not disclosed",
+      "is_remote": false,
+      "match_score": 99,
+      "skills_matched": [
+        "Python",
+        "SQL",
+        "REST APIs",
+        "Pandas",
+        "NumPy",
+        "Generative AI",
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "match_reasons": [
+        "Role aligns with target software/data/AI work",
+        "Skills found: Python, SQL, REST APIs, Pandas, NumPy",
+        "Entry-level / graduate signal found",
+        "India-based or global-remote location signal"
+      ],
+      "eligibility": "Possible early-career fit based on wording; confirm degree, graduation year and experience requirements.",
+      "early_career_signal": true,
+      "seniority_flag": false,
+      "role_hits": [
+        "ai engineer"
+      ],
+      "url_domain_verified": true,
+      "source_company": "Trackmind",
+      "fit_summary": "Rule-based match using role, skills, early-career wording, and location signals."
+    },
+    {
+      "company": "Hevo Data",
+      "title": "Associate Software Development Engineer (SDE) Intern",
+      "location": "Bangalore, India",
+      "description": "What you’ll own as Associate SDE at Hevo: . Implement SaaS connectors for assigned applications, learning application specific nuances like basic auth and data extraction. . Assist in building simple REST API components, focusing on clean implementation and testing. . Debug and optimize code for data pipeline efficiency under mentorship. . Contribute to feature breakdown, coding, and documentation for smaller tasks. . Apply logical thinking to solve integration issues and improve component quality. .Build internal tools with AI for business teams to run their functions What you’ll bring to the table: . Basic object-oriented programming skills and familiarity with design principles. . Exposure to data pipelines or APIs; eagerness to learn concurrency and performance basics. . Foundational knowledge of REST APIs (e.g., making calls, handling JSON) – no deep expertise needed. . Proficiency in Java/TypeScript/Python, good problem-solving with data structures and algorithms. . Strong analytical and logical thinking for real-world challenges. Candidate Persona: . Freshers with experience in software development, ideally with internships in integrations or data tools. . B Tech in Computer Science or equivalent from a reputed college.",
+      "apply_url": "https://jobs.lever.co/hevodata/993a3ed3-3014-432f-b0f4-28d300d58d9a/apply",
+      "job_url": "https://jobs.lever.co/hevodata/993a3ed3-3014-432f-b0f4-28d300d58d9a",
+      "careers_url": "https://jobs.lever.co/hevodata",
+      "published_at": "2026-09-21T08:05:56.138000+00:00",
+      "employment_type": "Full time",
+      "provider": "Lever",
+      "source_status": "Official public job-postings API",
+      "salary": "Not disclosed",
+      "deadline": "Not disclosed",
+      "is_remote": false,
+      "match_score": 82,
+      "skills_matched": [
+        "Java",
+        "Python",
+        "REST APIs"
+      ],
+      "match_reasons": [
+        "Role aligns with target software/data/AI work",
+        "Skills found: Java, Python, REST APIs",
+        "Entry-level / graduate signal found",
+        "India-based or global-remote location signal"
+      ],
+      "eligibility": "Possible early-career fit based on wording; confirm degree, graduation year and experience requirements.",
+      "early_career_signal": true,
+      "seniority_flag": false,
+      "role_hits": [
+        "software development",
+        "associate software"
+      ],
+      "url_domain_verified": true,
+      "source_company": "Hevo Data",
+      "fit_summary": "Rule-based match using role, skills, early-career wording, and location signals."
+    },
+    {
+      "company": "Lingaro",
+      "title": "Java Developer",
+      "location": "India",
+      "description": "Growth through diversity, equity, and inclusion. As an ethical business, we do what is right — including ensuring equal opportunities and fostering a safe, respectful workplace for each of us. We believe diversity fuels both personal and business growth. We're committed to building an inclusive community where all our people thrive regardless of their backgrounds, identities, or other personal characteristics. Server-side development: designing, developing, and maintaining the server-side logic of web applications. Implementing scalable and efficient server-side components and APIs Database management: working with relational and/or NoSQL databases to store and retrieve data efficiently. Designing and optimizing database schemas for performance and scalability API Integration: integrating third-party APIs and web services to enhance application functionality. Developing custom APIs to facilitate communication between front-end and back-end systems Security: implementing security best practices to protect against common web application vulnerabilities. Conducting regular security audits and implement necessary measures Optimization: optimizing server-side code for maximum speed and scalability. Monitoring and troubleshooting performance issues Collaborating with front-end developers, UI/UX designers, and other team members to ensure seamless integration of components Version control: using version control systems (e.g., Git) to manage and track changes to the codebase Testing and debugging: conducting thorough testing of server-side components to identify and fix bugs. Collaborating with QA engineers for comprehensive testing Creating and maintaining clear and comprehensive documentation for back-end systems and APIs Proficiency in Java server-side programming Experience with database systems (e.g., MySQL, PostgreSQL, MongoDB) Proven experience in back-end development and building scalable web applications Familiarity with cloud platforms (e.g., AWS, Azure, GCP) is a plus Strong analytical and problem-solving skills with attention to detail Effective communication ",
+      "apply_url": "https://jobs.lever.co/lingarogroup/853310f4-9cc3-45b7-ac29-cf5a624f3c40/apply",
+      "job_url": "https://jobs.lever.co/lingarogroup/853310f4-9cc3-45b7-ac29-cf5a624f3c40",
+      "careers_url": "https://jobs.lever.co/lingarogroup",
+      "published_at": "2026-06-29T06:00:46.036000+00:00",
+      "employment_type": "Full-time",
+      "provider": "Lever",
+      "source_status": "Official public job-postings API",
+      "salary": "Not disclosed",
+      "deadline": "Not disclosed",
+      "is_remote": true,
+      "match_score": 82,
+      "skills_matched": [
+        "Java",
+        "MySQL",
+        "Git"
+      ],
+      "match_reasons": [
+        "Role aligns with target software/data/AI work",
+        "Skills found: Java, MySQL, Git",
+        "Entry-level / graduate signal found",
+        "India-based or global-remote location signal"
+      ],
+      "eligibility": "Possible early-career fit based on wording; confirm degree, graduation year and experience requirements.",
+      "early_career_signal": true,
+      "seniority_flag": false,
+      "role_hits": [
+        "java developer"
+      ],
+      "url_domain_verified": true,
+      "source_company": "Lingaro",
+      "fit_summary": "Rule-based match using role, skills, early-career wording, and location signals."
+    },
+    {
+      "company": "Ema",
+      "title": "Software Engineer, Full-Stack ",
+      "location": "Mountain View (Hybrid)",
+      "description": "ABOUT EMA Ema builds AI Employees for HR, IT and Finance. Our AI Employees take on the busy work across the employee experience, from recruiting, onboarding and benefits to IT support, invoice processing and payroll, so people can spend their time on work that needs them. Founded by former executives from Google, Coinbase, Flipkart, and Okta, our team includes engineers from premier tech companies and graduates of Stanford, MIT, UC Berkeley, CMU, and IITs. We are backed by industry leading investors including Accel, Naspers/Prosus, Creaegis, Section32, and angels like Sheryl Sandberg and Dustin Moskovitz. Headquartered in Silicon Valley and with offices in London, Bangalore and Vancouver, Ema is at the frontier of what Agentic AI can do in production. We ship real systems that run real business processes at scale. IN THIS ROLE, YOU WILL: - Design, develop, and implement exceptional user interfaces for web applications using modern web technologies such as HTML, CSS, and JavaScript. - Collaborate closely with product managers, UX designers, and other stakeholders to gather requirements, own the user experience, develop wireframes, and create high-fidelity prototypes. - Develop and maintain API integrations, ensuring seamless communication between front-end and back-end systems using React and gRPC. - Contribute to back-end development with a focus on creating robust APIs and ensuring smooth communication between the front-end and server using technologies like Node.js or Python. - Build, test, and deploy full-stack web applications using React and gRPC, while ensuring responsiveness, performance, and scalability. - Optimize web applications for performance, accessibility, and SEO best practices. - Troubleshoot and resolve UI and back-end related issues, ensuring a consistent and optimal user experience across multiple platforms and devices. - Write clean, maintainable, and well-documented code adhering to established coding standards, and deploy/debug using platforms like Vercel. IDEALLY YOU'D HAVE: - Bachelor's degree in Computer Science, Web Development, or a rel",
+      "apply_url": "https://jobs.ashbyhq.com/ema/a3e07250-51f9-4518-ad2e-19d7825f5234/application",
+      "job_url": "https://jobs.ashbyhq.com/ema/a3e07250-51f9-4518-ad2e-19d7825f5234",
+      "careers_url": "https://jobs.ashbyhq.com/ema",
+      "published_at": "2026-10-21T07:21:20.567000+00:00",
+      "employment_type": "FullTime",
+      "provider": "Ashby",
+      "source_status": "Official public job-posting API",
+      "salary": "Not disclosed",
+      "deadline": "Not disclosed",
+      "is_remote": false,
+      "match_score": 80,
+      "skills_matched": [
+        "Python",
+        "FastAPI",
+        "REST APIs",
+        "Git",
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "match_reasons": [
+        "Role aligns with target software/data/AI work",
+        "Skills found: Python, FastAPI, REST APIs, Git, HTML",
+        "Experience requirement needs manual confirmation",
+        "India-based or global-remote location signal"
+      ],
+      "eligibility": "Experience eligibility is unclear from the feed; review the full official description.",
+      "early_career_signal": false,
+      "seniority_flag": false,
+      "role_hits": [
+        "software engineer"
+      ],
+      "url_domain_verified": true,
+      "source_company": "Ema",
+      "fit_summary": "Rule-based match using role, skills, early-career wording, and location signals."
+    },
+    {
+      "company": "Ema",
+      "title": "Software Engineer, Full-Stack ",
+      "location": "Vancouver, BC",
+      "description": "ABOUT EMA Ema builds AI Employees for HR, IT and Finance. Our AI Employees take on the busy work across the employee experience, from recruiting, onboarding and benefits to IT support, invoice processing and payroll, so people can spend their time on work that needs them. Founded by former executives from Google, Coinbase, Flipkart, and Okta, our team includes engineers from premier tech companies and graduates of Stanford, MIT, UC Berkeley, CMU, and IITs. We are backed by industry leading investors including Accel, Naspers/Prosus, Creaegis, Section32, and angels like Sheryl Sandberg and Dustin Moskovitz. Headquartered in Silicon Valley and with offices in London, Bangalore and Vancouver, Ema is at the frontier of what Agentic AI can do in production. We ship real systems that run real business processes at scale. IN THIS ROLE, YOU WILL: - Design, develop, and implement exceptional user interfaces for web applications using modern web technologies such as HTML, CSS, and JavaScript. - Collaborate closely with product managers, UX designers, and other stakeholders to gather requirements, own the user experience, develop wireframes, and create high-fidelity prototypes. - Develop and maintain API integrations, ensuring seamless communication between front-end and back-end systems using React and gRPC. - Contribute to back-end development with a focus on creating robust APIs and ensuring smooth communication between the front-end and server using technologies like Node.js or Python. - Build, test, and deploy full-stack web applications using React and gRPC, while ensuring responsiveness, performance, and scalability. - Optimize web applications for performance, accessibility, and SEO best practices. - Troubleshoot and resolve UI and back-end related issues, ensuring a consistent and optimal user experience across multiple platforms and devices. - Write clean, maintainable, and well-documented code adhering to established coding standards, and deploy/debug using platforms like Vercel. IDEALLY YOU'D HAVE: - Bachelor's degree in Computer Science, Web Development, or a rel",
+      "apply_url": "https://jobs.ashbyhq.com/ema/00ec584f-a71d-42b9-98df-c8ff9d83db7f/application",
+      "job_url": "https://jobs.ashbyhq.com/ema/00ec584f-a71d-42b9-98df-c8ff9d83db7f",
+      "careers_url": "https://jobs.ashbyhq.com/ema",
+      "published_at": "2026-09-22T17:49:12.186000+00:00",
+      "employment_type": "FullTime",
+      "provider": "Ashby",
+      "source_status": "Official public job-posting API",
+      "salary": "Not disclosed",
+      "deadline": "Not disclosed",
+      "is_remote": false,
+      "match_score": 80,
+      "skills_matched": [
+        "Python",
+        "FastAPI",
+        "REST APIs",
+        "Git",
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "match_reasons": [
+        "Role aligns with target software/data/AI work",
+        "Skills found: Python, FastAPI, REST APIs, Git, HTML",
+        "Experience requirement needs manual confirmation",
+        "India-based or global-remote location signal"
+      ],
+      "eligibility": "Experience eligibility is unclear from the feed; review the full official description.",
+      "early_career_signal": false,
+      "seniority_flag": false,
+      "role_hits": [
+        "software engineer"
+      ],
+      "url_domain_verified": true,
+      "source_company": "Ema",
+      "fit_summary": "Rule-based match using role, skills, early-career wording, and location signals."
+    },
+    {
+      "company": "Ema",
+      "title": "Software Engineer, Machine Learning",
+      "location": "Mountain View (Hybrid)",
+      "description": "ABOUT EMA Ema builds AI Employees for HR, IT and Finance. Our AI Employees take on the busy work across the employee experience, from recruiting, onboarding and benefits to IT support, invoice processing and payroll, so people can spend their time on work that needs them. Founded by former executives from Google, Coinbase, Flipkart, and Okta, our team includes engineers from premier tech companies and graduates of Stanford, MIT, UC Berkeley, CMU, and IITs. We are backed by industry leading investors including Accel, Naspers/Prosus, Creaegis, Section32, and angels like Sheryl Sandberg and Dustin Moskovitz. Headquartered in Silicon Valley and with offices in London, Bangalore and Vancouver, Ema is at the frontier of what Agentic AI can do in production. We ship real systems that run real business processes at scale. Who You Are We're looking for innovative and passionate Machine Learning Engineers to join our team. You are someone who loves solving complex problems, enjoys the challenges of working with huge data sets, and has a knack for turning theoretical concepts into practical, scalable solutions. You are a strong team player but also thrive in autonomous environments where your ideas can make a significant impact. You love utilizing machine learning techniques to push the boundaries of what is possible within the realm of Natural Language Processing, Information Retrieval and related spaces. Most importantly, you are excited to be part of a mission-oriented high-growth startup that can create a lasting impact. You Will - Conceptualize, develop, and deploy machine learning models that underpin our NLP, retrieval, ranking, reasoning, dialog and code-generation systems. - Implement advanced machine learning algorithms, such as Transformer-based models, reinforcement learning, ensemble learning, and agent-based systems to continually improve the performance of our AI systems. - Process and analyze large, complex datasets (structured, semi-structured, and unstructured), and use your findings to inform the development of our models. - Work across the complete lifecy",
+      "apply_url": "https://jobs.ashbyhq.com/ema/9728a171-9617-4533-9f03-10c14c3b6ca5/application",
+      "job_url": "https://jobs.ashbyhq.com/ema/9728a171-9617-4533-9f03-10c14c3b6ca5",
+      "careers_url": "https://jobs.ashbyhq.com/ema",
+      "published_at": "2026-10-21T07:29:54.001000+00:00",
+      "employment_type": "FullTime",
+      "provider": "Ashby",
+      "source_status": "Official public job-posting API",
+      "salary": "$160,000 to $220,000 annually",
+      "deadline": "Not disclosed",
+      "is_remote": false,
+      "match_score": 72,
+      "skills_matched": [
+        "Python",
+        "SQL",
+        "Machine Learning"
+      ],
+      "match_reasons": [
+        "Role aligns with target software/data/AI work",
+        "Skills found: Python, SQL, Machine Learning",
+        "Potentially within early-career experience range",
+        "India-based or global-remote location signal"
+      ],
+      "eligibility": "Experience eligibility is unclear from the feed; review the full official description.",
+      "early_career_signal": false,
+      "seniority_flag": false,
+      "role_hits": [
+        "software engineer",
+        "machine learning"
+      ],
+      "url_domain_verified": true,
+      "source_company": "Ema",
+      "fit_summary": "Rule-based match using role, skills, early-career wording, and location signals."
+    },
+    {
+      "company": "FirstWork",
+      "title": "Software Engineer",
+      "location": "India",
+      "description": "FirstWork is building the next generation of agentic AI products for frontline hiring, the work that gets roughly 80% of the world's workforce hired, verified, and paid. We're looking for a Backend Engineer to design and build the AI-powered product features that carry a worker from application to their first day on the job. In this role, you'll build and own AI agents running in production: document, browsing, voice, and conversational; collaborating closely with product managers, designers, and the engineers building our AI infrastructure. This is a true product engineering role: you'll own features end to end, ship every week, and see your work meet real enterprise volume the day it merges. Production code, real users, real scale. THE SCALE WE RUN AT - ~50,000 workers a week move through our hiring and onboarding flows. - 2.5 million API requests a day across the platform. - Millions of document pages a year processed by AI agents, across 40+ countries and a dozen-plus languages. - Global staffing, logistics, healthcare, marketplace, and employment platforms across the US, UK, EU, LATAM, and India. - Billing on work performed, per document validated and per agent action executed, which makes product design, cost per unit, and gross margin one conversation. WHAT YOU'LL DO - Build and ship AI-powered product features using LLMs, document agents, and agentic workflows. - Develop backend services and APIs that support model inference, orchestration, and tool execution. - Implement document extraction and validation pipelines that read real-world documents and auto-fill product data. - Build AI browsing agents that drive government and third-party portals through the browser, where the only interface is the UI. - Ship conversational and voice agents that screen and follow up with candidates over phone, SMS, and WhatsApp. - Write and debug durable async workflows in Temporal for automations, AI jobs, and bulk actions. - Design and evolve the REST APIs and webhooks that customer ATS, HR, and payroll integrations run on. - Handle the production realities of AI: prompt ",
+      "apply_url": "https://jobs.ashbyhq.com/firstwork/75ed42df-9999-4cf1-a610-45133fe4df0e/application",
+      "job_url": "https://jobs.ashbyhq.com/firstwork/75ed42df-9999-4cf1-a610-45133fe4df0e",
+      "careers_url": "https://jobs.ashbyhq.com/firstwork",
+      "published_at": "2026-09-04T09:51:52.035000+00:00",
+      "employment_type": "FullTime",
+      "provider": "Ashby",
+      "source_status": "Official public job-posting API",
+      "salary": "Not disclosed",
+      "deadline": "Not disclosed",
+      "is_remote": true,
+      "match_score": 68,
+      "skills_matched": [
+        "Python",
+        "SQL",
+        "REST APIs",
+        "Generative AI"
+      ],
+      "match_reasons": [
+        "Role aligns with target software/data/AI work",
+        "Skills found: Python, SQL, REST APIs, Generative AI",
+        "Experience requirement needs manual confirmation",
+        "India-based or global-remote location signal"
+      ],
+      "eligibility": "Experience eligibility is unclear from the feed; review the full official description.",
+      "early_career_signal": false,
+      "seniority_flag": false,
+      "role_hits": [
+        "software engineer"
+      ],
+      "url_domain_verified": true,
+      "source_company": "FirstWork",
+      "fit_summary": "Rule-based match using role, skills, early-career wording, and location signals."
+    },
+    {
+      "company": "Zimperium",
+      "title": "Jr. QA Automation (API) - Bangalore, India",
+      "location": "Bangalore, India",
+      "description": "Zimperium® is an industry leader in enterprise mobile security, being the first and only company to provide a complete mobile tcahreat defense system that offers real-time, on device world-class protection against both known and unknown next generation of advanced mobile cyberattacks and malware. Our MTD and award-winning machine learning-based engine protects against device, network, phishing and application attacks for IOS, Android and Windows devices, using a non-intrusive approach to always protect privacy of users. To reinforce our team of experts, we are seeking a QA Automation Engineer with 1-3 years of experience who views security as \"understanding how systems truly work.\" This role requires a unique blend of automation expertise and a security analyst mindset. You will build and maintain automation frameworks, perform vulnerability assessments, conduct Mobile threat defense Application and SDK testing, and work closely with developers to ensure high-quality, secure software releases. Location: India (Bangalore Preferred) Key Responsibilities Contribute to the maintenance and enhancement of existing automated test scripts and frameworks. Execute manual and automated test cases for Web and API applications to support sprint goals. Collaborate with developers to identify, report, and track software defects in Jira. Run regression, smoke, and sanity test suites and analyze results. Participate in Agile ceremonies (Daily Stand-ups, Sprint Planning) and contribute to test documentation. Assist in integrating automated tests into TestOps under guidance. Communicate testing progress and blockers to team members clearly. Learn and adopt new testing tools and methodologies as required by the project. Minimum Requirements 1-3 years of experience in software testing and automation. Proficiency in Java and Selenium WebDriver. Basic knowledge of API testing (e.g., REST Assured or Postman). Solid understanding of SQL fundamentals. Experience with Agile methodologies and Git version control. Required Skills Automation Testing Experience with Selenium WebDriver Experienc",
+      "apply_url": "https://jobs.lever.co/zimperium/aa5febcf-51f0-40c2-81e3-a86ab39fef82/apply",
+      "job_url": "https://jobs.lever.co/zimperium/aa5febcf-51f0-40c2-81e3-a86ab39fef82",
+      "careers_url": "https://jobs.lever.co/zimperium",
+      "published_at": "2026-08-17T21:07:03.398000+00:00",
+      "employment_type": "Full time",
+      "provider": "Lever",
+      "source_status": "Official public job-postings API",
+      "salary": "Not disclosed",
+      "deadline": "Not disclosed",
+      "is_remote": false,
+      "match_score": 68,
+      "skills_matched": [
+        "Java",
+        "SQL",
+        "Machine Learning",
+        "Git"
+      ],
+      "match_reasons": [
+        "Role aligns with target software/data/AI work",
+        "Skills found: Java, SQL, Machine Learning, Git",
+        "Experience requirement needs manual confirmation",
+        "India-based or global-remote location signal"
+      ],
+      "eligibility": "Experience eligibility is unclear from the feed; review the full official description.",
+      "early_career_signal": false,
+      "seniority_flag": false,
+      "role_hits": [
+        "qa automation"
+      ],
+      "url_domain_verified": true,
+      "source_company": "Zimperium",
+      "fit_summary": "Rule-based match using role, skills, early-career wording, and location signals."
+    },
+    {
+      "company": "Hevo Data",
+      "title": "Associate Customer Experience Engineer",
+      "location": "Pune, Maharashtra",
+      "description": "About Hevo Hevo Data is a no-code data pipeline platform that helps companies consolidate data from multiple sources for faster analytics. Our fully managed pipelines let data teams move data from 150+ sources (databases, SaaS applications, cloud storage, SDKs, streaming services) into warehouses and lakes, all without writing code. Over 2,000 data teams in 45+ countries use Hevo, including DoorDash, Foot Locker, Arhaus, and Santander. We’re top-rated in the G2 Data Pipeline category, backed by Sequoia Capital, Qualgro, and Chiratae Ventures, and operate out of San Francisco and Bangalore. Role Summary An Associate Customer Experience Engineer owns customer issues end-to-end, keeps unnecessary escalations to a minimum, and ensures every interaction reflects a high standard of customer experience. This role centers on troubleshooting JDBC-based sources and integrations, partnering closely with Product and Engineering whenever an issue calls for deeper investigation. The role calls for building solid technical depth over time, following and refining support workflows, putting AI and automation to good use, and adding to the team's shared knowledge so issues get resolved faster and more consistently across the board. Key Responsibilities Own customer issues and drive them to resolution within SLA timelines, combining structured investigation with clear, timely updates to the customer. Investigate issues by digging into SQL, logs, API responses, database behavior, product documentation, and other diagnostic tools available. Loop in Product and Engineering as needed, sharing the relevant technical context, investigation findings, and steps to reproduce the issue. Keep unnecessary escalations to a minimum by building strong product and technical knowledge and resolving issues independently wherever possible. Follow established support processes and flag improvements that cut down on rework, manual effort, and resolution time. Use AI-assisted tools, automation, and diagnostic capabilities to make troubleshooting faster and more consistent. Build deeper technical expertis",
+      "apply_url": "https://jobs.lever.co/hevodata/96993ebc-609a-4733-84cd-e1a0c3e69fda/apply",
+      "job_url": "https://jobs.lever.co/hevodata/96993ebc-609a-4733-84cd-e1a0c3e69fda",
+      "careers_url": "https://jobs.lever.co/hevodata",
+      "published_at": "2026-09-25T08:16:49.362000+00:00",
+      "employment_type": "Full time",
+      "provider": "Lever",
+      "source_status": "Official public job-postings API",
+      "salary": "Not disclosed",
+      "deadline": "Not disclosed",
+      "is_remote": false,
+      "match_score": 62,
+      "skills_matched": [
+        "Java",
+        "SQL",
+        "MySQL",
+        "JDBC",
+        "REST APIs"
+      ],
+      "match_reasons": [
+        "Skills found: Java, SQL, MySQL, JDBC, REST APIs",
+        "Entry-level / graduate signal found",
+        "India-based or global-remote location signal"
+      ],
+      "eligibility": "Possible early-career fit based on wording; confirm degree, graduation year and experience requirements.",
+      "early_career_signal": true,
+      "seniority_flag": false,
+      "role_hits": [],
+      "url_domain_verified": true,
+      "source_company": "Hevo Data",
+      "fit_summary": "Rule-based match using role, skills, early-career wording, and location signals."
+    },
+    {
+      "company": "Hevo Data",
+      "title": "Business System Engineer",
+      "location": "Bangalore, India",
+      "description": "About Hevo Hevo is a simple, no-code data pipeline platform that helps companies unify and prepare their data for analytics and AI, effortlessly. Over 2,500 data-driven organizations, including DoorDash and Shopify, rely on Hevo to automate data integration and transformation across hundreds of sources, so teams can focus on generating insights instead of managing engineering bottlenecks. Hevo is a Series B company backed by Sequoia Capital India, Chiratae Ventures, and Qualgro, building technology from India for global markets, with teams based out of Bangalore and San Francisco. Business Systems Engineers build internal tools and systems that help teams work better. They work across functions such as Sales, Marketing, RevOps, Customer Success, Finance, and the Founders' Office. The role involves understanding a business problem, deciding the right technical approach, building the solution, and owning it after launch. The solution could be custom software, an integration, an automation, a data workflow, or an AI-powered tool. Work with business teams to understand problems and identify opportunities for automation or better tooling. Build and maintain internal applications, integrations, automations, and workflows. Decide when to build custom software and when to use existing tools. Use AI tools and APIs where they are useful for solving the problem. Strong problem-solving ability and good business context. Ownership from problem definition through rollout and maintenance. Ability to turn loosely defined problems into working solutions. AI-native development: strong ability to use coding agents such as Claude Code or Codex to build significantly faster. Claude Code, Codex, or similar coding agents Python, JavaScript/TypeScript, or similar languages SQL and databases Git and standard development workflows LLM APIs and agent frameworks We care less about how much code someone can write manually and more about whether they can use AI effectively to build reliable software quickly.",
+      "apply_url": "https://jobs.lever.co/hevodata/95ab9f01-3671-4073-9990-4418aecb24e7/apply",
+      "job_url": "https://jobs.lever.co/hevodata/95ab9f01-3671-4073-9990-4418aecb24e7",
+      "careers_url": "https://jobs.lever.co/hevodata",
+      "published_at": "2026-09-17T10:29:13.314000+00:00",
+      "employment_type": "Full time",
+      "provider": "Lever",
+      "source_status": "Official public job-postings API",
+      "salary": "Not disclosed",
+      "deadline": "Not disclosed",
+      "is_remote": false,
+      "match_score": 62,
+      "skills_matched": [
+        "Python",
+        "SQL",
+        "Generative AI",
+        "Git",
+        "JavaScript"
+      ],
+      "match_reasons": [
+        "Skills found: Python, SQL, Generative AI, Git, JavaScript",
+        "Entry-level / graduate signal found",
+        "India-based or global-remote location signal"
+      ],
+      "eligibility": "Possible early-career fit based on wording; confirm degree, graduation year and experience requirements.",
+      "early_career_signal": true,
+      "seniority_flag": false,
+      "role_hits": [],
+      "url_domain_verified": true,
+      "source_company": "Hevo Data",
+      "fit_summary": "Rule-based match using role, skills, early-career wording, and location signals."
+    },
+    {
+      "company": "Lingaro",
+      "title": "ML/AI Engineer - Classical ML",
+      "location": "India",
+      "description": "Role: ML/AI Engineer Location: India, Remote Lingaro Group is the end-to-end data services partner to global brands and enterprises. We lead our clients through their data journey, from strategy through development to operations and adoption, helping them to realize the full value of their data. Since 2008, Lingaro has been recognized by clients and global research and advisory firms for innovation, technology excellence, and the consistent delivery of highest-quality data services. Our commitment to data excellence has created an environment that attracts the brightest global data talent to our team. The person we are looking for will become part of Data Science and AI Competency Center working in AI Engineering team. The key duties are: Develop and maintain production ML pipelines using Python and Spark/PySpark. Build, deploy, and support MLbased recommendation systems and ranking models. Work with Databricks and Unity Catalog for data and ML workflows. Use MLflow for experiment tracking and model lifecycle management. Monitor model performance and identify data drift and model drift. Implement model governance and production monitoring practices. Work with SQL and structured data to support ML solutions. Collaborate with data engineers, data scientists, and stakeholders to deliver reliable ML solutions. Minimum 6 years of relevant experience in machine learning engineering or a related role. Strong Python programming skills. Mandatory handson experience with Databricks. Practical experience with production ML pipelines. Handson experience with Spark/PySpark. Experience with production recommendation systems. Knowledge of MLflow and model lifecycle management. Understanding of model monitoring, data drift, model drift, and model governance. Strong SQL skills. Experience with LightGBM (LGBM), XGBoost, or other gradientboosting algorithms. Experience with Unity Catalog. Familiarity with star schema and data warehousing concepts. Experience with ranking and personalization models. Stable employment. On the market since 2008, 1300+ talents currently on board in 7 gl",
+      "apply_url": "https://jobs.lever.co/lingarogroup/553e0c1b-895e-401c-824b-e83bb983f225/apply",
+      "job_url": "https://jobs.lever.co/lingarogroup/553e0c1b-895e-401c-824b-e83bb983f225",
+      "careers_url": "https://jobs.lever.co/lingarogroup",
+      "published_at": "2026-10-07T12:47:55.256000+00:00",
+      "employment_type": "Full-time",
+      "provider": "Lever",
+      "source_status": "Official public job-postings API",
+      "salary": "Not disclosed",
+      "deadline": "Not disclosed",
+      "is_remote": true,
+      "match_score": 50,
+      "skills_matched": [
+        "Python",
+        "SQL",
+        "Machine Learning"
+      ],
+      "match_reasons": [
+        "Skills found: Python, SQL, Machine Learning",
+        "Entry-level / graduate signal found",
+        "India-based or global-remote location signal"
+      ],
+      "eligibility": "Possible early-career fit based on wording; confirm degree, graduation year and experience requirements.",
+      "early_career_signal": true,
+      "seniority_flag": false,
+      "role_hits": [],
+      "url_domain_verified": true,
+      "source_company": "Lingaro",
+      "fit_summary": "Rule-based match using role, skills, early-career wording, and location signals."
+    },
+    {
+      "company": "Hevo Data",
+      "title": "SDE I",
+      "location": "Bangalore, India",
+      "description": "What you’ll own as SDE I at Hevo: . Implement SaaS connectors for assigned applications, learning application specific nuances like basic auth and data extraction. . Assist in building simple REST API components, focusing on clean implementation and testing. . Debug and optimize code for data pipeline efficiency under mentorship. . Contribute to feature breakdown, coding, and documentation for smaller tasks. . Apply logical thinking to solve integration issues and improve component quality. What you’ll bring to the table: . Basic object-oriented programming skills and familiarity with design principles. . Exposure to data pipelines or APIs; eagerness to learn concurrency and performance basics. . Foundational knowledge of REST APIs (e.g., making calls, handling JSON) – no deep expertise needed. . Proficiency in Java/TypeScript/Python, good problem-solving with data structures and algorithms. . Strong analytical and logical thinking for real-world challenges. Candidate Persona: . 0-1 years in software development, ideally with internships in integrations or data tools. . B Tech in Computer Science or equivalent from a reputed college.",
+      "apply_url": "https://jobs.lever.co/hevodata/6cbbe304-e065-4711-bf3e-756795d2bc2a/apply",
+      "job_url": "https://jobs.lever.co/hevodata/6cbbe304-e065-4711-bf3e-756795d2bc2a",
+      "careers_url": "https://jobs.lever.co/hevodata",
+      "published_at": "2026-07-27T06:58:22.493000+00:00",
+      "employment_type": "Full time",
+      "provider": "Lever",
+      "source_status": "Official public job-postings API",
+      "salary": "Not disclosed",
+      "deadline": "Not disclosed",
+      "is_remote": false,
+      "match_score": 50,
+      "skills_matched": [
+        "Java",
+        "Python",
+        "REST APIs"
+      ],
+      "match_reasons": [
+        "Skills found: Java, Python, REST APIs",
+        "Entry-level / graduate signal found",
+        "India-based or global-remote location signal"
+      ],
+      "eligibility": "Possible early-career fit based on wording; confirm degree, graduation year and experience requirements.",
+      "early_career_signal": true,
+      "seniority_flag": false,
+      "role_hits": [],
+      "url_domain_verified": true,
+      "source_company": "Hevo Data",
+      "fit_summary": "Rule-based match using role, skills, early-career wording, and location signals."
+    },
+    {
+      "company": "Lingaro",
+      "title": "Data Scientist - Forecasting",
+      "location": "India",
+      "description": "Data Scientist India, Remote Growth through diversity, equity, and inclusion. As an ethical business, we do what is right — including ensuring equal opportunities and fostering a safe, respectful workplace for each of us. We believe diversity fuels both personal and business growth. We're committed to building an inclusive community where all our people thrive regardless of their backgrounds, identities, or other personal characteristics. Work on end‑to‑end classification and forecasting use cases: problem framing, data preparation, model development, evaluation and basic deployment support (e.g. demand forecasting, churn prediction) Explore and clean data; perform EDA to understand data and flag data quality issues. Engineer features for tabular and time‑series data. Train, validate, and tune standard ML models (e.g. logistic regression, tree‑based models, gradient boosting, simple neural nets, classical time‑series models). Evaluate models with appropriate metrics that have impact on business KPIs. Build clear visualizations and concise reports to present model results and insights to business stakeholders. Collaborate with data engineers and AI engineers to bring models intoproduction (batch scoring, APIs, models monitoring, dashboards). Document data sources, modeling assumptions, and experiment results in a reproducible way (notebooks, reports, wikis). Commercial experience with various classical data science and Machine Learning (ML) models (e.g. decision trees, ensemble-based tree models, linear regression etc.) Knowledge of customer analytics concepts or advanced forecasting Model hyperparameter tuning in an analytical role supporting business will be a plus Fluency in Python, basic working knowledge of SQL Knowledge of specific DS/ML libraries Solid experience in one of the cloud computing platforms (Databricks or GCP or Azure) Basic computer programming skills and familiarity with programming concepts Strong business acumen Experience with deep learning, reinforcement learning or other advanced modeling concepts in classical Data Science problems Underst",
+      "apply_url": "https://jobs.lever.co/lingarogroup/b57c92ac-62af-40c0-a5d6-d2fa2b4444db/apply",
+      "job_url": "https://jobs.lever.co/lingarogroup/b57c92ac-62af-40c0-a5d6-d2fa2b4444db",
+      "careers_url": "https://jobs.lever.co/lingarogroup",
+      "published_at": "2026-02-19T07:21:32.738000+00:00",
+      "employment_type": "Full-time",
+      "provider": "Lever",
+      "source_status": "Official public job-postings API",
+      "salary": "Not disclosed",
+      "deadline": "Not disclosed",
+      "is_remote": true,
+      "match_score": 50,
+      "skills_matched": [
+        "Python",
+        "SQL",
+        "Machine Learning"
+      ],
+      "match_reasons": [
+        "Skills found: Python, SQL, Machine Learning",
+        "Entry-level / graduate signal found",
+        "India-based or global-remote location signal"
+      ],
+      "eligibility": "Possible early-career fit based on wording; confirm degree, graduation year and experience requirements.",
+      "early_career_signal": true,
+      "seniority_flag": false,
+      "role_hits": [],
+      "url_domain_verified": true,
+      "source_company": "Lingaro",
+      "fit_summary": "Rule-based match using role, skills, early-career wording, and location signals."
+    },
+    {
+      "company": "Zimperium",
+      "title": "Detection Researcher (Coding Focused)",
+      "location": "Spain (Remote)",
+      "description": "Zimperium® is the world leader in mobile security, purpose-built to protect the modern mobile enterprise. Trusted by leading organizations and governments, our AI-driven platform delivers real-time, on-device protection for mobile applications and devices. We help organizations stay ahead with proactive defense against evolving threats—including mobile-targeted phishing (mishing), malware, app vulnerabilities, and zero-day exploits. Our mission is to empower organizations to operate securely and confidently in today’s dynamic digital environment. Location: Worldwide with preference for candidates in Europe Zimperium® is an industry leader in enterprise mobile security, being the first and only company to provide a complete mobile threat defense system that offers real-time, on device world-class protection against both known and unknown next generation of advanced mobile cyberattacks and malware. Our MTD and award-winning machine learning-based engine protects against device, network, phishing and application attacks for IOS, Android and Windows devices, using a non-intrusive approach to always protect privacy of users. We are currently looking for a Detection Researcher. This role involves researching, developing, and maintaining advanced detection and analysis capabilities to counter complex tampering and evasion techniques. The successful candidate will design new tools, improve existing ones, perform thorough code reviews, and help define and uphold high coding standards across the team. Strong programming skills and a collaborative mindset are essential. Experience with the LLVM framework and knowledge of code obfuscation and de-obfuscation techniques are considered strong assets. Research and analyze advanced detection bypass techniques (e.g., rooting, hooking, and runtime application/system tampering) to assess threats to our detection systems. Evaluate and reverse-engineer tools and frameworks used to attack or evade our products, documenting findings and attack vectors. Lead and participate in structured brainstorming sessions to generate novel detection ",
+      "apply_url": "https://jobs.lever.co/zimperium/a836db18-6efb-4686-af26-09060b68f166/apply",
+      "job_url": "https://jobs.lever.co/zimperium/a836db18-6efb-4686-af26-09060b68f166",
+      "careers_url": "https://jobs.lever.co/zimperium",
+      "published_at": "2026-01-26T00:10:54.486000+00:00",
+      "employment_type": "Not disclosed",
+      "provider": "Lever",
+      "source_status": "Official public job-postings API",
+      "salary": "Not disclosed",
+      "deadline": "Not disclosed",
+      "is_remote": true,
+      "match_score": 50,
+      "skills_matched": [
+        "Java",
+        "Python",
+        "Machine Learning"
+      ],
+      "match_reasons": [
+        "Skills found: Java, Python, Machine Learning",
+        "Entry-level / graduate signal found",
+        "India-based or global-remote location signal"
+      ],
+      "eligibility": "Possible early-career fit based on wording; confirm degree, graduation year and experience requirements.",
+      "early_career_signal": true,
+      "seniority_flag": false,
+      "role_hits": [],
+      "url_domain_verified": true,
+      "source_company": "Zimperium",
+      "fit_summary": "Rule-based match using role, skills, early-career wording, and location signals."
+    },
+    {
+      "company": "Hevo Data",
+      "title": "AI Solution Engineer",
+      "location": "Bangalore, India",
+      "description": "About Hevo: At Hevo, we are changing the way companies leverage data to drive user experience, growth, and business processes. There has been a fundamental change in the amount of data companies are generating on a day-to-day basis. More and more users in an organization are now looking to use data to drive business decisions. Data is no longer a second-class citizen and companies are seeing data as a competitive advantage. We see this change and we are on a mission to change the way companies leverage their data. With a technology platform processing more than 100 billion records a month and doubling itself every 6 months, Hevo is poised for exponential growth in the coming future. This position provides a unique opportunity to create a massive impact on all existing and future customers of Hevo through technology innovation. If you are the one who is looking to take a leap of faith and work on the technology of the future, if you obsess over customer satisfaction and experience then we are looking for you. Role Summary The AI Solutions Engineer will prototype, test, and deliver internal AI applications that improve efficiency across GTM teams (Marketing, Sales, BizOps). The role combines applied AI/ML knowledge, software engineering skills, and a strong understanding of GTM workflows to deliver practical, business-impacting solutions. AI Application Development Build internal applications using LLMs and AI APIs (e.g., OpenAI, Anthropic). Integrate AI into GTM tools like HubSpot, Salesforce, LinkedIn, Outreach, Google Sheets, etc. Develop scripts and automations for data enrichment, copy assistance, and reporting. Prototyping & Experimentation Rapidly test new AI models and APIs, validate feasibility, and create MVPs. Evaluate and document performance, accuracy, and usability for GTM use cases. Cross-functional Collaboration Work closely with Marketing, Sales, and BizOps teams to capture pain points and translate them into AI-driven solutions. Provide demos, documentation, and training to internal users. Operational Support Maintain and optimize deployed tools. E",
+      "apply_url": "https://jobs.lever.co/hevodata/a7f26742-f965-4a59-840d-f7afa0a28176/apply",
+      "job_url": "https://jobs.lever.co/hevodata/a7f26742-f965-4a59-840d-f7afa0a28176",
+      "careers_url": "https://jobs.lever.co/hevodata",
+      "published_at": "2025-09-05T09:26:26.743000+00:00",
+      "employment_type": "Full time",
+      "provider": "Lever",
+      "source_status": "Official public job-postings API",
+      "salary": "Not disclosed",
+      "deadline": "Not disclosed",
+      "is_remote": false,
+      "match_score": 50,
+      "skills_matched": [
+        "Python",
+        "FastAPI",
+        "Generative AI"
+      ],
+      "match_reasons": [
+        "Skills found: Python, FastAPI, Generative AI",
+        "Entry-level / graduate signal found",
+        "India-based or global-remote location signal"
+      ],
+      "eligibility": "Possible early-career fit based on wording; confirm degree, graduation year and experience requirements.",
+      "early_career_signal": true,
+      "seniority_flag": false,
+      "role_hits": [],
+      "url_domain_verified": true,
+      "source_company": "Hevo Data",
+      "fit_summary": "Rule-based match using role, skills, early-career wording, and location signals."
+    },
+    {
+      "company": "Ema",
+      "title": "IT Engineer",
+      "location": "San Francisco Bay Area, United States",
+      "description": "ABOUT EMA Ema builds AI Employees for HR, IT and Finance. Our AI Employees take on the busy work across the employee experience, from recruiting, onboarding and benefits to IT support, invoice processing and payroll, so people can spend their time on work that needs them. Founded by former executives from Google, Coinbase, Flipkart, and Okta, our team includes engineers from premier tech companies and graduates of Stanford, MIT, UC Berkeley, CMU, and IITs. We are backed by industry leading investors including Accel, Naspers/Prosus, Creaegis, Section32, and angels like Sheryl Sandberg and Dustin Moskovitz. Headquartered in Silicon Valley and with offices in London, Bangalore and Vancouver, Ema is at the frontier of what Agentic AI can do in production. We ship real systems that run real business processes at scale. ABOUT THE ROLE As Ema scales, our corporate IT environment tools, access, devices, and compliance has outgrown an ownership-by-default model. We're hiring an IT Engineer to own it end to end. This is not a traditional helpdesk role. Ema is an agentic AI company, and we expect our own internal operations to reflect that. You'll run corporate IT while systematically automating it, using agentic tooling to remove the manual work rather than absorbing it. The measure of success in this role is how little of it remains manual after a year and every employee’s experience is great. WHAT YOU'LL DO - Agentic Workflows & Automation: Treat every recurring manual task as an automation candidate, extending existing systems and leveraging AI coding tools to design autonomous workflows. - Automated Identity & Access: Shift JML lifecycles, including global employee onboarding, Okta/SCIM provisioning, and access reviews from ticket-driven processes to policy-driven automation. - SaaS Lifecycle Automation: Programmatically maintain tool inventories, track utilization, and reclaim unused licenses automatically. - Automated Endpoint Security: Manage fleet MDM while automating OS patching, encryption baselines, and continuous drift detection. - Automated Compliance & Securit",
+      "apply_url": "https://jobs.ashbyhq.com/ema/1119c04d-6cbe-4edc-96f5-9cc3a6c16741/application",
+      "job_url": "https://jobs.ashbyhq.com/ema/1119c04d-6cbe-4edc-96f5-9cc3a6c16741",
+      "careers_url": "https://jobs.ashbyhq.com/ema",
+      "published_at": "2026-10-05T13:28:47.942000+00:00",
+      "employment_type": "FullTime",
+      "provider": "Ashby",
+      "source_status": "Official public job-posting API",
+      "salary": "Not disclosed",
+      "deadline": "Not disclosed",
+      "is_remote": true,
+      "match_score": 38,
+      "skills_matched": [
+        "Python"
+      ],
+      "match_reasons": [
+        "Skills found: Python",
+        "Entry-level / graduate signal found",
+        "India-based or global-remote location signal"
+      ],
+      "eligibility": "Possible early-career fit based on wording; confirm degree, graduation year and experience requirements.",
+      "early_career_signal": true,
+      "seniority_flag": false,
+      "role_hits": [],
+      "url_domain_verified": true,
+      "source_company": "Ema",
+      "fit_summary": "Rule-based match using role, skills, early-career wording, and location signals."
+    },
+    {
+      "company": "Hevo Data",
+      "title": "Associate Technical Writer",
+      "location": "Bangalore, India",
+      "description": "About Hevo: Hevo is a no-code Data Pipeline platform trusted by 1,000+ companies globally, including Postman, Shopify, Doordash and Gartner. Backed by $42M from Peak XV Partners and Chiratae Ventures, we power the data infrastructure of companies that move fast. We are consistently rated #1 on G2 in the ETL and Data Integration category (4.5+ rating) and are a Snowflake Premier Partner. Our product is in the market, loved by customers, and now entering its next growth phase. With 600+ US customers already on the platform and a product that has matured significantly over the last two years, this is the ground-floor moment. Before the team scales, before the brand becomes obvious. The upside is real and uncapped. About the Role: We're looking for an Associate Technical Writer who's comfortable working in a docs-as-code environment and can partner with AI tools (e.g., Claude) for all aspects of the work — not just writing, but operating within an automated documentation pipeline. This is an opportunity to own documentation end-to-end within a modern, AI-assisted workflow, working closely with engineering, product, and support stakeholders to keep a shared source of truth accurate and consistent. What You'll Do: Create and maintain user documentation using a docs-as-code workflow — Markdown/YAML source files, Git-based version control, and CI-driven publishing (e.g., Jekyll). Independently own small documentation tickets and projects end-to-end, from research through PR merge. Use AI-assisted tools (Claude or equivalent) to draft, summarize, restructure, or QA content, while critically reviewing and editing AI output rather than publishing it as-is. Conduct research and gather technical information from product specs, engineering discussions, and existing docs to fill knowledge gaps. Follow and help enforce documentation standards, style guides, and metadata conventions (e.g., structured fields for error messages, FHS-style rule sets) across a shared source of truth. Work in Git-based workflows: branching, raising PRs, responding to review comments, and triggering aut",
+      "apply_url": "https://jobs.lever.co/hevodata/8334030a-d6e3-46cc-96a4-f16c5412ed74/apply",
+      "job_url": "https://jobs.lever.co/hevodata/8334030a-d6e3-46cc-96a4-f16c5412ed74",
+      "careers_url": "https://jobs.lever.co/hevodata",
+      "published_at": "2026-09-18T09:18:39.381000+00:00",
+      "employment_type": "Full time",
+      "provider": "Lever",
+      "source_status": "Official public job-postings API",
+      "salary": "Not disclosed",
+      "deadline": "Not disclosed",
+      "is_remote": false,
+      "match_score": 38,
+      "skills_matched": [
+        "Git"
+      ],
+      "match_reasons": [
+        "Skills found: Git",
+        "Entry-level / graduate signal found",
+        "India-based or global-remote location signal"
+      ],
+      "eligibility": "Possible early-career fit based on wording; confirm degree, graduation year and experience requirements.",
+      "early_career_signal": true,
+      "seniority_flag": false,
+      "role_hits": [],
+      "url_domain_verified": true,
+      "source_company": "Hevo Data",
+      "fit_summary": "Rule-based match using role, skills, early-career wording, and location signals."
+    },
+    {
+      "company": "Ema",
+      "title": "AI Application Engineer (Contractor role)",
+      "location": "San Francisco Bay Area",
+      "description": "ABOUT EMA Ema builds AI Employees for HR, IT and Finance. Our AI Employees take on the busy work across the employee experience, from recruiting, onboarding and benefits to IT support, invoice processing and payroll, so people can spend their time on work that needs them. Founded by former executives from Google, Coinbase, Flipkart, and Okta, our team includes engineers from premier tech companies and graduates of Stanford, MIT, UC Berkeley, CMU, and IITs. We are backed by industry leading investors including Accel, Naspers/Prosus, Creaegis, Section32, and angels like Sheryl Sandberg and Dustin Moskovitz. Headquartered in Silicon Valley and with offices in London, Bangalore and Vancouver, Ema is at the frontier of what Agentic AI can do in production. We ship real systems that run real business processes at scale. At Ema, we build AI Employees that operate inside the enterprise. Healthcare is where the bar is highest: the output has to be accurate, auditable, and clinically sound. We're opening a part-time role focused on agent measurement and improvement. You'll instrument how our healthcare AI Employees perform in production, identify where quality breaks down, and design the experiments that close the gap — partnering with clinical experts to ensure improvements translate into better patient outcomes, not just better metrics. We're looking for strong analytical judgment (Python, agent lead development), comfort operating with incomplete information, and genuine interest in the healthcare domain. Clinical experience is valued but not required. This engagement is structured as a paid internship or contract engagement, with weekly syncs in our Bay Area office. Compensation offered will be determined by factors such as location, level, job-related knowledge, skills, and experience. Certain roles may be eligible for variable compensation, equity, and benefits. Ema Unlimited is an equal opportunity employer and is committed to providing equal employment opportunities to all employees and applicants for employment without regard to race, color, religion, sex, national",
+      "apply_url": "https://jobs.ashbyhq.com/ema/ab094389-25ec-417b-b646-06969d166d06/application",
+      "job_url": "https://jobs.ashbyhq.com/ema/ab094389-25ec-417b-b646-06969d166d06",
+      "careers_url": "https://jobs.ashbyhq.com/ema",
+      "published_at": "2026-08-18T20:35:42.700000+00:00",
+      "employment_type": "FullTime",
+      "provider": "Ashby",
+      "source_status": "Official public job-posting API",
+      "salary": "Not disclosed",
+      "deadline": "Not disclosed",
+      "is_remote": false,
+      "match_score": 38,
+      "skills_matched": [
+        "Python"
+      ],
+      "match_reasons": [
+        "Skills found: Python",
+        "Entry-level / graduate signal found",
+        "India-based or global-remote location signal"
+      ],
+      "eligibility": "Possible early-career fit based on wording; confirm degree, graduation year and experience requirements.",
+      "early_career_signal": true,
+      "seniority_flag": false,
+      "role_hits": [],
+      "url_domain_verified": true,
+      "source_company": "Ema",
+      "fit_summary": "Rule-based match using role, skills, early-career wording, and location signals."
+    }
+  ],
   "notes": [
-    "The scheduled collector will replace this file after its first successful run.",
-    "Salary and deadlines are only shown when stated by the employer.",
-    "Role fit and experience eligibility are estimates; verify requirements on the official application page."
+    "Jobs are collected from published public career-board APIs configured in sources.json.",
+    "Salary and deadlines are displayed only when stated by the employer; otherwise they are marked Not disclosed.",
+    "Match score and eligibility are estimates, not a guarantee. Check the official job page before applying.",
+    "Only India-based or explicitly global-remote postings are included; ambiguous remote locations are excluded."
   ]
 }
