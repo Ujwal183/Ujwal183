@@ -98,6 +98,7 @@ with st.form("profile_form", clear_on_submit=False):
         requires_sponsorship = st.selectbox("Will you require visa/work sponsorship? * if asked", sponsor_options, index=sponsor_index)
         expected_salary = st.text_input("Expected salary / CTC (leave blank to require manual review)", value=value("expected_salary"))
         notice_period = st.text_input("Notice period / start availability", value=value("notice_period"))
+        application_source = st.text_input("Application source answer (only used if a form asks)", value=value("application_source"), help="Leave blank to stop for manual review when asked; do not guess which source option best fits.")
         accept_privacy_notices = st.checkbox("Allow ticking required applicant privacy/data-processing notices", value=bool(profile.get("accept_privacy_notices", False)), help="Only applies to a required checkbox explicitly describing applicant privacy or data processing. Terms of service and legal certifications still require manual review.")
         auto_apply_enabled = st.checkbox("I authorize automatic application submissions when the resume match meets my threshold and all mandatory answers are known", value=bool(profile.get("auto_apply_enabled", False)))
     st.caption("If auto-submit is off, Run now performs a dry run and fills supported forms without submitting. CAPTCHA, unknown required questions, terms/legal attestations, and unsupported fields stop for manual review.")
@@ -157,6 +158,7 @@ def save_current_settings() -> tuple[bool, str]:
             "minimum_match_score": int(minimum_match_score), "max_applications_per_run": int(max_applications),
             "authorized_to_work": auth_value, "requires_sponsorship": sponsor_value,
             "expected_salary": expected_salary.strip(), "notice_period": notice_period.strip(),
+            "application_source": application_source.strip(),
             "accept_privacy_notices": bool(accept_privacy_notices), "auto_apply_enabled": bool(auto_apply_enabled),
             "resume_path": str(resume_path)
         }
