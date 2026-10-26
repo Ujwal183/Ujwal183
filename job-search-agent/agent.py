@@ -171,18 +171,31 @@ def normalize_location(value: Any) -> str:
     return str(value or "").strip()
 
 
+FOREIGN_LOCATION_TERMS = [
+    "united states", "usa", "u.s.a.", "canada", "spain", "united kingdom", "uk",
+    "germany", "france", "poland", "portugal", "netherlands", "ireland",
+    "switzerland", "australia", "new zealand", "singapore", "japan", "china",
+    "mexico", "brazil", "argentina", "sweden", "norway", "denmark", "finland",
+    "italy", "czech republic", "czechia", "romania", "bulgaria", "serbia",
+    "belgium", "austria", "israel", "south korea", "taiwan", "united arab emirates",
+    "uae", "south africa", "kenya", "nigeria", "new york", "california",
+    "texas", "mountain view", "vancouver", "london", "berlin", "madrid",
+    "barcelona", "paris", "amsterdam", "toronto", "sydney", "melbourne"
+]
+
+
 def location_is_relevant(location: str, description: str) -> bool:
     loc = (location or "").lower().strip()
     desc = (description or "").lower()
     # A concrete India city/country in the job's location field is the strongest signal.
     if any(term in loc for term in INDIA_TERMS):
         return True
-    # Do not include a US/Canada/other physical office just because the description mentions India.
+    # A named non-India office stays excluded even if the posting mentions international teams.
+    if any(term in loc for term in FOREIGN_LOCATION_TERMS):
+        return False
     # Remote roles are accepted only when the location or description explicitly supports India/global eligibility.
     remote_location = any(term in loc for term in ("remote", "anywhere", "distributed", "work from home"))
     if remote_location:
-        if any(term in loc for term in INDIA_TERMS):
-            return True
         if any(term in desc for term in ("remote - india", "remote in india", "india remote", "remote (india)", "based in india", "located in india", "applicants in india", "candidates in india")):
             return True
         if any(term in desc for term in GLOBAL_REMOTE_TERMS):
