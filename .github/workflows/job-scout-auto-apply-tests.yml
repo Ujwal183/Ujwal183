@@ -1,0 +1,35 @@
+name: Job Scout Auto-Apply Tests
+
+on:
+  workflow_dispatch:
+  push:
+    branches: ["main"]
+    paths:
+      - "job-search-agent/apply_agent.py"
+      - "job-search-agent/local_app.py"
+      - "job-search-agent/test_apply_agent.py"
+      - "job-search-agent/requirements-auto-apply.txt"
+      - ".github/workflows/job-scout-auto-apply-tests.yml"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: job-scout-auto-apply-tests
+  cancel-in-progress: true
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Check Python syntax
+        run: python -m py_compile job-search-agent/apply_agent.py job-search-agent/local_app.py job-search-agent/test_apply_agent.py
+      - name: Run safety and matching tests
+        working-directory: job-search-agent
+        run: python -m unittest test_apply_agent.py
