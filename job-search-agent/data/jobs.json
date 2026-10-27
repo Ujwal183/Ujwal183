@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T14:15:04+00:00",
+  "generated_at": "2026-10-27T09:17:34+00:00",
   "status": "ok",
   "profile": {
     "target_roles": [
@@ -52,7 +52,7 @@
       "company": "Zimperium",
       "provider": "Lever",
       "status": "ok",
-      "jobs_seen": 20,
+      "jobs_seen": 21,
       "matches": 1,
       "message": ""
     },
@@ -92,7 +92,7 @@
       "company": "Ema",
       "provider": "Ashby",
       "status": "ok",
-      "jobs_seen": 38,
+      "jobs_seen": 39,
       "matches": 0,
       "message": ""
     },
@@ -228,7 +228,7 @@
     },
     {
       "company": "FirstWork",
-      "title": "Software Engineer",
+      "title": "Software Engineer (Remote)",
       "location": "India",
       "description": "FirstWork is building the next generation of agentic AI products for frontline hiring, the work that gets roughly 80% of the world's workforce hired, verified, and paid. We're looking for a Backend Engineer to design and build the AI-powered product features that carry a worker from application to their first day on the job. In this role, you'll build and own AI agents running in production: document, browsing, voice, and conversational; collaborating closely with product managers, designers, and the engineers building our AI infrastructure. This is a true product engineering role: you'll own features end to end, ship every week, and see your work meet real enterprise volume the day it merges. Production code, real users, real scale. THE SCALE WE RUN AT - ~50,000 workers a week move through our hiring and onboarding flows. - 2.5 million API requests a day across the platform. - Millions of document pages a year processed by AI agents, across 40+ countries and a dozen-plus languages. - Global staffing, logistics, healthcare, marketplace, and employment platforms across the US, UK, EU, LATAM, and India. - Billing on work performed, per document validated and per agent action executed, which makes product design, cost per unit, and gross margin one conversation. WHAT YOU'LL DO - Build and ship AI-powered product features using LLMs, document agents, and agentic workflows. - Develop backend services and APIs that support model inference, orchestration, and tool execution. - Implement document extraction and validation pipelines that read real-world documents and auto-fill product data. - Build AI browsing agents that drive government and third-party portals through the browser, where the only interface is the UI. - Ship conversational and voice agents that screen and follow up with candidates over phone, SMS, and WhatsApp. - Write and debug durable async workflows in Temporal for automations, AI jobs, and bulk actions. - Design and evolve the REST APIs and webhooks that customer ATS, HR, and payroll integrations run on. - Handle the production realities of AI: prompt ",
       "apply_url": "https://jobs.ashbyhq.com/firstwork/75ed42df-9999-4cf1-a610-45133fe4df0e/application",

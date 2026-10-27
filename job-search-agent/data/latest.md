@@ -1,6 +1,6 @@
 # Job Scout — Daily Job Digest
 
-Last scan: 2026-10-26T14:15:04+00:00
+Last scan: 2026-10-27T09:17:34+00:00
 
 Relevant postings found: 6
 
@@ -41,7 +41,7 @@ Relevant postings found: 6
 - Official job: https://jobs.lever.co/hevodata/6cbbe304-e065-4711-bf3e-756795d2bc2a/apply
 - Employer career board: https://jobs.lever.co/hevodata
 
-### 4. Software Engineer — FirstWork
+### 4. Software Engineer (Remote) — FirstWork
 
 - Match score: 68%
 - Location: India
