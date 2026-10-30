@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T10:21:03+00:00",
+  "generated_at": "2026-10-30T10:23:47+00:00",
   "status": "ok",
   "profile": {
     "target_roles": [
@@ -60,7 +60,7 @@
       "company": "Lingaro",
       "provider": "Lever",
       "status": "ok",
-      "jobs_seen": 66,
+      "jobs_seen": 68,
       "matches": 1,
       "message": ""
     },
@@ -76,7 +76,7 @@
       "company": "Everbridge",
       "provider": "Lever",
       "status": "ok",
-      "jobs_seen": 28,
+      "jobs_seen": 30,
       "matches": 0,
       "message": ""
     },
@@ -92,7 +92,7 @@
       "company": "Ema",
       "provider": "Ashby",
       "status": "ok",
-      "jobs_seen": 40,
+      "jobs_seen": 39,
       "matches": 0,
       "message": ""
     },
