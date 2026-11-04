@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T11:15:32+00:00",
+  "generated_at": "2026-11-04T11:27:36+00:00",
   "status": "ok",
   "profile": {
     "target_roles": [
@@ -44,7 +44,7 @@
       "company": "Hevo Data",
       "provider": "Lever",
       "status": "ok",
-      "jobs_seen": 41,
+      "jobs_seen": 42,
       "matches": 2,
       "message": ""
     },
@@ -68,8 +68,8 @@
       "company": "Trackmind",
       "provider": "Lever",
       "status": "ok",
-      "jobs_seen": 5,
-      "matches": 1,
+      "jobs_seen": 6,
+      "matches": 2,
       "message": ""
     },
     {
@@ -187,6 +187,46 @@
       ],
       "url_domain_verified": true,
       "source_company": "Hevo Data",
+      "fit_summary": "Rule-based match using role, skills, early-career wording, and location signals."
+    },
+    {
+      "company": "Trackmind",
+      "title": "QA Automation Engineer",
+      "location": "Hyderabad",
+      "description": "We are looking for an experienced QA Automation Engineer with 4–6 years of hands-on experience in automation testing using Selenium and Java, along with API testing using REST Assured. The ideal candidate should have good exposure to AWS Cloud environments, strong testing fundamentals, and experience in designing, developing, and maintaining automation frameworks. The candidate should be capable of working closely with development and QA teams to ensure application quality, identify defects, and deliver reliable software solutions. Design, develop, and maintain automated test scripts using Selenium WebDriver and Java. Build and enhance automation frameworks using TestNG, JUnit, or similar tools. Perform functional, regression, integration, and end-to-end automation testing. Develop and execute API automation test scripts using REST Assured. Validate REST APIs, including request/response payloads, status codes, headers, authentication, and error handling. Work with AWS Cloud environments and perform testing of cloud-hosted applications and services. Validate application functionality across different environments, including development, QA, staging, and production. Integrate automated test scripts into CI/CD pipelines using Jenkins or GitHub Actions. Identify, report, track, and troubleshoot defects using tools such as Jira. Collaborate with developers, business analysts, and other QA team members to understand requirements and testing scenarios. Participate in test planning, test case design, execution, and reporting. Ensure test coverage, maintain automation scripts, and continuously improve testing processes. 4–6 years of experience in Software Testing / QA Automation. Strong hands-on experience with Selenium WebDriver and Java . Experience in developing and maintaining automation frameworks. Good knowledge of TestNG or JUnit. Hands-on experience in API Testing using REST Assured . Strong understanding of REST APIs, HTTP methods, JSON, XML, and API validations. Experience working with AWS Cloud services and cloud-based application environments . Knowledge of SQL",
+      "apply_url": "https://jobs.lever.co/trackmind/ec14b2d1-13e6-4fc4-8f20-45e84b572fe5/apply",
+      "job_url": "https://jobs.lever.co/trackmind/ec14b2d1-13e6-4fc4-8f20-45e84b572fe5",
+      "careers_url": "https://jobs.lever.co/trackmind",
+      "published_at": "2026-11-03T12:24:15.282000+00:00",
+      "employment_type": "Contract",
+      "provider": "Lever",
+      "source_status": "Official public job-postings API",
+      "salary": "Not disclosed",
+      "deadline": "Not disclosed",
+      "is_remote": false,
+      "match_score": 74,
+      "skills_matched": [
+        "Java",
+        "SQL",
+        "REST APIs",
+        "Git",
+        "GitHub"
+      ],
+      "match_reasons": [
+        "Role aligns with target software/data/AI work",
+        "Skills found: Java, SQL, REST APIs, Git, GitHub",
+        "Experience requirement needs manual confirmation",
+        "India-based or global-remote location signal"
+      ],
+      "eligibility": "Experience eligibility is unclear from the feed; review the full official description.",
+      "early_career_signal": false,
+      "seniority_flag": false,
+      "role_hits": [
+        "automation engineer",
+        "qa automation"
+      ],
+      "url_domain_verified": true,
+      "source_company": "Trackmind",
       "fit_summary": "Rule-based match using role, skills, early-career wording, and location signals."
     },
     {

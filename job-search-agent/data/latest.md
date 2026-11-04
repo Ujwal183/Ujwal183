@@ -1,8 +1,8 @@
 # Job Scout — Daily Job Digest
 
-Last scan: 2026-11-03T11:15:32+00:00
+Last scan: 2026-11-04T11:27:36+00:00
 
-Relevant postings found: 6
+Relevant postings found: 7
 
 > Only published public career-board feeds are used. Verify eligibility and application status on the employer-hosted posting. Salary/deadline fields are not guessed.
 
@@ -30,7 +30,18 @@ Relevant postings found: 6
 - Official job: https://jobs.lever.co/hevodata/993a3ed3-3014-432f-b0f4-28d300d58d9a/apply
 - Employer career board: https://jobs.lever.co/hevodata
 
-### 3. SDE I — Hevo Data
+### 3. QA Automation Engineer — Trackmind
+
+- Match score: 74%
+- Location: Hyderabad
+- Experience signal: Experience eligibility is unclear from the feed; review the full official description.
+- Salary / CTC: Not disclosed
+- Deadline: Not disclosed
+- Skills found: Java, SQL, REST APIs, Git, GitHub
+- Official job: https://jobs.lever.co/trackmind/ec14b2d1-13e6-4fc4-8f20-45e84b572fe5/apply
+- Employer career board: https://jobs.lever.co/trackmind
+
+### 4. SDE I — Hevo Data
 
 - Match score: 72%
 - Location: Bangalore, India
@@ -41,7 +52,7 @@ Relevant postings found: 6
 - Official job: https://jobs.lever.co/hevodata/6cbbe304-e065-4711-bf3e-756795d2bc2a/apply
 - Employer career board: https://jobs.lever.co/hevodata
 
-### 4. Software Engineer (Remote) — FirstWork
+### 5. Software Engineer (Remote) — FirstWork
 
 - Match score: 68%
 - Location: India
@@ -52,7 +63,7 @@ Relevant postings found: 6
 - Official job: https://jobs.ashbyhq.com/firstwork/75ed42df-9999-4cf1-a610-45133fe4df0e/application
 - Employer career board: https://jobs.ashbyhq.com/firstwork
 
-### 5. Jr. QA Automation (API) - Bangalore, India — Zimperium
+### 6. Jr. QA Automation (API) - Bangalore, India — Zimperium
 
 - Match score: 68%
 - Location: Bangalore, India
@@ -63,7 +74,7 @@ Relevant postings found: 6
 - Official job: https://jobs.lever.co/zimperium/aa5febcf-51f0-40c2-81e3-a86ab39fef82/apply
 - Employer career board: https://jobs.lever.co/zimperium
 
-### 6. Java Developer — Lingaro
+### 7. Java Developer — Lingaro
 
 - Match score: 62%
 - Location: India
