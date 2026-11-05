@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T11:27:36+00:00",
+  "generated_at": "2026-11-05T11:24:32+00:00",
   "status": "ok",
   "profile": {
     "target_roles": [
@@ -68,7 +68,7 @@
       "company": "Trackmind",
       "provider": "Lever",
       "status": "ok",
-      "jobs_seen": 6,
+      "jobs_seen": 7,
       "matches": 2,
       "message": ""
     },
@@ -76,7 +76,7 @@
       "company": "Everbridge",
       "provider": "Lever",
       "status": "ok",
-      "jobs_seen": 28,
+      "jobs_seen": 25,
       "matches": 0,
       "message": ""
     },
