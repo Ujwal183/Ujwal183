@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T11:23:26+00:00",
+  "generated_at": "2026-11-07T10:36:53+00:00",
   "status": "ok",
   "profile": {
     "target_roles": [
@@ -76,7 +76,7 @@
       "company": "Everbridge",
       "provider": "Lever",
       "status": "ok",
-      "jobs_seen": 25,
+      "jobs_seen": 24,
       "matches": 0,
       "message": ""
     },
