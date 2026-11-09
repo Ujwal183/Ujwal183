@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T10:41:46+00:00",
+  "generated_at": "2026-11-09T11:59:50+00:00",
   "status": "ok",
   "profile": {
     "target_roles": [
@@ -52,7 +52,7 @@
       "company": "Zimperium",
       "provider": "Lever",
       "status": "ok",
-      "jobs_seen": 21,
+      "jobs_seen": 20,
       "matches": 1,
       "message": ""
     },
@@ -60,7 +60,7 @@
       "company": "Lingaro",
       "provider": "Lever",
       "status": "ok",
-      "jobs_seen": 70,
+      "jobs_seen": 69,
       "matches": 1,
       "message": ""
     },
@@ -68,7 +68,7 @@
       "company": "Trackmind",
       "provider": "Lever",
       "status": "ok",
-      "jobs_seen": 7,
+      "jobs_seen": 8,
       "matches": 2,
       "message": ""
     },
