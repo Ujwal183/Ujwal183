@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T11:23:34+00:00",
+  "generated_at": "2026-11-12T11:43:47+00:00",
   "status": "ok",
   "profile": {
     "target_roles": [
@@ -44,7 +44,7 @@
       "company": "Hevo Data",
       "provider": "Lever",
       "status": "ok",
-      "jobs_seen": 41,
+      "jobs_seen": 39,
       "matches": 2,
       "message": ""
     },
@@ -60,7 +60,7 @@
       "company": "Lingaro",
       "provider": "Lever",
       "status": "ok",
-      "jobs_seen": 70,
+      "jobs_seen": 72,
       "matches": 1,
       "message": ""
     },
@@ -76,7 +76,7 @@
       "company": "Everbridge",
       "provider": "Lever",
       "status": "ok",
-      "jobs_seen": 24,
+      "jobs_seen": 22,
       "matches": 0,
       "message": ""
     },
@@ -84,7 +84,7 @@
       "company": "FirstWork",
       "provider": "Ashby",
       "status": "ok",
-      "jobs_seen": 13,
+      "jobs_seen": 15,
       "matches": 1,
       "message": ""
     },

@@ -1,6 +1,6 @@
 # Job Scout — Daily Job Digest
 
-Last scan: 2026-11-11T11:23:34+00:00
+Last scan: 2026-11-12T11:43:47+00:00
 
 Relevant postings found: 7
 
