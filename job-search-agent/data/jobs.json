@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T11:52:08+00:00",
+  "generated_at": "2026-11-23T13:32:15+00:00",
   "status": "ok",
   "profile": {
     "target_roles": [
@@ -60,7 +60,7 @@
       "company": "Lingaro",
       "provider": "Lever",
       "status": "ok",
-      "jobs_seen": 73,
+      "jobs_seen": 75,
       "matches": 1,
       "message": ""
     },
@@ -68,7 +68,7 @@
       "company": "Trackmind",
       "provider": "Lever",
       "status": "ok",
-      "jobs_seen": 8,
+      "jobs_seen": 7,
       "matches": 2,
       "message": ""
     },
@@ -84,8 +84,8 @@
       "company": "FirstWork",
       "provider": "Ashby",
       "status": "ok",
-      "jobs_seen": 19,
-      "matches": 1,
+      "jobs_seen": 18,
+      "matches": 0,
       "message": ""
     },
     {
@@ -301,44 +301,6 @@
       ],
       "url_domain_verified": true,
       "source_company": "Hevo Data",
-      "fit_summary": "Rule-based match using role, skills, early-career wording, and location signals."
-    },
-    {
-      "company": "FirstWork",
-      "title": "Software Engineer (Remote)",
-      "location": "India",
-      "description": "About FirstWork FirstWork is an applied AI company building the next generation of workforce operations technology. We work with companies across staffing, logistics, healthcare, and retail that manage large frontline workforces. These businesses deal with complex, highly manual processes involving hiring, onboarding, document verification, compliance, training, and ongoing workforce management. We're using AI agents to automate these workflows, working alongside human teams and integrating with the systems businesses already use. Having raised $15M in our Series A, led by Earlybird Venture Capital, bringing our total funding to $20M, we're entering an exciting phase of growth. With established enterprise customers and a growing product footprint, we're expanding beyond hiring and onboarding to build a comprehensive AI-powered workforce operations platform. About the Role We're looking for a Software Engineer (Backend) to design and build AI-powered product features that carry a worker from application to their first day on the job. In this role, you'll build and own AI agents running in production across document processing, browser automation, voice, and conversational experiences. You'll collaborate closely with product managers, designers, and engineers building our AI infrastructure. This is a hands-on product engineering role where you'll own features end to end, ship frequently, and see your work operate at real enterprise scale. You'll be working on production code, solving real-world problems, and building technology used by thousands of businesses and workers. What Makes This Opportunity Exciting? - You'll be building and shipping AI capabilities that are already operating at enterprise scale: - ~100,000 workers moving through our hiring and onboarding flows every week. - 3.5 million API requests processed daily across the platform. - Millions of document pages processed by AI agents every year. - AI agents automating document verification, compliance workflows, and browser-based interactions across 40+ countries. - You'll have the opportunity to work on",
-      "apply_url": "https://jobs.ashbyhq.com/firstwork/75ed42df-9999-4cf1-a610-45133fe4df0e/application",
-      "job_url": "https://jobs.ashbyhq.com/firstwork/75ed42df-9999-4cf1-a610-45133fe4df0e",
-      "careers_url": "https://jobs.ashbyhq.com/firstwork",
-      "published_at": "2026-11-15T23:14:07.663000+00:00",
-      "employment_type": "FullTime",
-      "provider": "Ashby",
-      "source_status": "Official public job-posting API",
-      "salary": "Not disclosed",
-      "deadline": "Not disclosed",
-      "is_remote": true,
-      "match_score": 68,
-      "skills_matched": [
-        "Python",
-        "SQL",
-        "REST APIs",
-        "Generative AI"
-      ],
-      "match_reasons": [
-        "Role aligns with target software/data/AI work",
-        "Skills found: Python, SQL, REST APIs, Generative AI",
-        "Experience requirement needs manual confirmation",
-        "India-based or global-remote location signal"
-      ],
-      "eligibility": "Experience eligibility is unclear from the feed; review the full official description.",
-      "early_career_signal": false,
-      "seniority_flag": false,
-      "role_hits": [
-        "software engineer"
-      ],
-      "url_domain_verified": true,
-      "source_company": "FirstWork",
       "fit_summary": "Rule-based match using role, skills, early-career wording, and location signals."
     },
     {
