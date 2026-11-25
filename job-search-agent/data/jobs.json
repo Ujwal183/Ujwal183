@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T14:10:49+00:00",
+  "generated_at": "2026-11-25T13:23:13+00:00",
   "status": "ok",
   "profile": {
     "target_roles": [
@@ -44,8 +44,8 @@
       "company": "Hevo Data",
       "provider": "Lever",
       "status": "ok",
-      "jobs_seen": 40,
-      "matches": 3,
+      "jobs_seen": 41,
+      "matches": 4,
       "message": ""
     },
     {
@@ -60,7 +60,7 @@
       "company": "Lingaro",
       "provider": "Lever",
       "status": "ok",
-      "jobs_seen": 78,
+      "jobs_seen": 79,
       "matches": 1,
       "message": ""
     },
@@ -76,7 +76,7 @@
       "company": "Everbridge",
       "provider": "Lever",
       "status": "ok",
-      "jobs_seen": 29,
+      "jobs_seen": 27,
       "matches": 0,
       "message": ""
     },
@@ -147,6 +147,43 @@
       ],
       "url_domain_verified": true,
       "source_company": "Trackmind",
+      "fit_summary": "Rule-based match using role, skills, early-career wording, and location signals."
+    },
+    {
+      "company": "Hevo Data",
+      "title": "Associate SDE- Pune",
+      "location": "Pune, Maharashtra",
+      "description": "Location: Pune, India. This role is based out of our Baner office. What we are building We are building an AI system that creates data connectors by itself and keeps them working by itself. No engineer should need to manually build every connector. No engineer should need to come back six months later because the source API changed. Work that traditionally takes weeks or months should take hours. But building a connector is not the hardest part. The real question is: Would you trust this system to run by itself, with nobody watching, for months? That is the job. What you’ll own as Associate SDE at Hevo: Implement SaaS connectors for assigned applications, learning application specific nuances like basic auth and data extraction. Assist in building simple REST API components, focusing on clean implementation and testing. Debug and optimize code for data pipeline efficiency under mentorship. Contribute to feature breakdown, coding, and documentation for smaller tasks. Apply logical thinking to solve integration issues and improve component quality. Build internal tools with AI for business teams to run their functions What you’ll bring to the table: Basic object-oriented programming skills and familiarity with design principles. Exposure to data pipelines or APIs; eagerness to learn concurrency and performance basics. Foundational knowledge of REST APIs (e.g., making calls, handling JSON) – no deep expertise needed. Proficiency in Java/TypeScript/Python, good problem-solving with data structures and algorithms. Strong analytical and logical thinking for real-world challenges. Candidate Persona: Freshers with experience in software development, ideally with internships in integrations or data tools. B Tech in Computer Science or equivalent from a reputed college. Why this role: Very few teams are building autonomous AI systems that operate production infrastructure where being wrong has real consequences. This is not a chatbot. It is infrastructure that has to remain correct, quietly, for months. If that kind of problem excites you, there are not many places working ",
+      "apply_url": "https://jobs.lever.co/hevodata/21fbe701-e71b-4f45-b865-a497a62a6482/apply",
+      "job_url": "https://jobs.lever.co/hevodata/21fbe701-e71b-4f45-b865-a497a62a6482",
+      "careers_url": "https://jobs.lever.co/hevodata",
+      "published_at": "2026-11-25T12:36:59.265000+00:00",
+      "employment_type": "Full time",
+      "provider": "Lever",
+      "source_status": "Official public job-postings API",
+      "salary": "Not disclosed",
+      "deadline": "Not disclosed",
+      "is_remote": true,
+      "match_score": 82,
+      "skills_matched": [
+        "Java",
+        "Python",
+        "REST APIs"
+      ],
+      "match_reasons": [
+        "Role aligns with target software/data/AI work",
+        "Skills found: Java, Python, REST APIs",
+        "Entry-level / graduate signal found",
+        "India-based or global-remote location signal"
+      ],
+      "eligibility": "Possible early-career fit based on wording; confirm degree, graduation year and experience requirements.",
+      "early_career_signal": true,
+      "seniority_flag": false,
+      "role_hits": [
+        "sde"
+      ],
+      "url_domain_verified": true,
+      "source_company": "Hevo Data",
       "fit_summary": "Rule-based match using role, skills, early-career wording, and location signals."
     },
     {
